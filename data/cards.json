@@ -11,7 +11,7 @@
       "ゴッド",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-SEC001.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-SEC001a.jpg"
   },
   {
     "id": "dm26rp1-TR001",
@@ -25,7 +25,7 @@
       "ドラゴン",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-TR001.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-TR001a.jpg"
   },
   {
     "id": "dm26rp1-OR001",
@@ -39,7 +39,7 @@
       "ゴッド",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-OR001.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-OR001a.jpg"
   },
   {
     "id": "dm26rp1-SEC002",
@@ -52,7 +52,7 @@
       "エンジェル",
       "コマンド"
     ],
-    "image": "data/images/dm26rp1-SEC002.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-SEC002.jpg"
   },
   {
     "id": "dm26rp1-SEC003",
@@ -66,7 +66,7 @@
       "ドラゴン",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-SEC003.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-SEC003a.jpg"
   },
   {
     "id": "dm26rp1-SEC004",
@@ -79,7 +79,7 @@
       "サイバーロード",
       "オリジン"
     ],
-    "image": "data/images/dm26rp1-SEC004.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-SEC004.jpg"
   },
   {
     "id": "dm26rp1-SEC005",
@@ -93,7 +93,7 @@
       "ムーン",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-SEC005.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-SEC005a.jpg"
   },
   {
     "id": "dm26rp1-SEC006",
@@ -106,7 +106,7 @@
       "ドラゴン",
       "ゾンビ"
     ],
-    "image": "data/images/dm26rp1-SEC006.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-SEC006.jpg"
   },
   {
     "id": "dm26rp1-SEC007",
@@ -120,7 +120,7 @@
       "コマンド",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-SEC007.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-SEC007a.jpg"
   },
   {
     "id": "dm26rp1-SEC008",
@@ -134,7 +134,7 @@
       "ドラゴン",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-SEC008.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-SEC008a.jpg"
   },
   {
     "id": "dm26rp1-SEC009",
@@ -150,7 +150,7 @@
       "アーク",
       "セラフィム"
     ],
-    "image": "data/images/dm26rp1-SEC009.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-SEC009.jpg"
   },
   {
     "id": "dm26rp1-SEC010",
@@ -163,7 +163,7 @@
       "ジャイアント",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-SEC010.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-SEC010a.jpg"
   },
   {
     "id": "dm26rp1-SEC011",
@@ -181,7 +181,7 @@
       "アース",
       "ドラゴン"
     ],
-    "image": "data/images/dm26rp1-SEC011.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-SEC011.jpg"
   },
   {
     "id": "dm26rp1-SEC012",
@@ -198,7 +198,7 @@
       "ドラゴン",
       "シノビ"
     ],
-    "image": "data/images/dm26rp1-SEC012.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-SEC012.jpg"
   },
   {
     "id": "dm26rp1-TR002",
@@ -210,7 +210,7 @@
     "races": [
       "メカサンダー"
     ],
-    "image": "data/images/dm26rp1-TR002.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-TR002.jpg"
   },
   {
     "id": "dm26rp1-TR003",
@@ -224,7 +224,7 @@
       "エンジェル",
       "コマンド"
     ],
-    "image": "data/images/dm26rp1-TR003.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-TR003.jpg"
   },
   {
     "id": "dm26rp1-TR004",
@@ -239,7 +239,7 @@
       "エンジェル",
       "コマンド"
     ],
-    "image": "data/images/dm26rp1-TR004.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-TR004.jpg"
   },
   {
     "id": "dm26rp1-TD001",
@@ -252,7 +252,7 @@
       "エンジェル",
       "コマンド"
     ],
-    "image": "data/images/dm26rp1-TD001.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-TD001a.jpg"
   },
   {
     "id": "dm26rp1-TD002",
@@ -268,7 +268,7 @@
       "ドラゴン",
       "ゾンビ"
     ],
-    "image": "data/images/dm26rp1-TD002.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-TD002.jpg"
   },
   {
     "id": "dm26rp1-TD003",
@@ -283,7 +283,7 @@
       "アーマード",
       "ドラゴン"
     ],
-    "image": "data/images/dm26rp1-TD003.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-TD003.jpg"
   },
   {
     "id": "dm26rp1-SP001",
@@ -296,7 +296,7 @@
       "ゼニス",
       "セレス"
     ],
-    "image": "data/images/dm26rp1-SP001.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-SP001.jpg"
   },
   {
     "id": "dm26rp1-SP002",
@@ -309,7 +309,7 @@
       "ジャイアント",
       "スノーフェアリー"
     ],
-    "image": "data/images/dm26rp1-SP002.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-SP002.jpg"
   },
   {
     "id": "dm26rp1-SP003",
@@ -321,7 +321,7 @@
     "races": [
       "スノーフェアリー"
     ],
-    "image": "data/images/dm26rp1-SP003.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-SP003.jpg"
   },
   {
     "id": "dm26rp1-S001",
@@ -334,7 +334,7 @@
       "エンジェル",
       "コマンド"
     ],
-    "image": "data/images/dm26rp1-S001.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-S001.jpg"
   },
   {
     "id": "dm26rp1-S002",
@@ -348,7 +348,7 @@
       "ドラゴン",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-S002.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-S002a.jpg"
   },
   {
     "id": "dm26rp1-S003",
@@ -361,7 +361,7 @@
       "サイバーロード",
       "オリジン"
     ],
-    "image": "data/images/dm26rp1-S003.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-S003.jpg"
   },
   {
     "id": "dm26rp1-S004",
@@ -375,7 +375,7 @@
       "ムーン",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-S004.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-S004a.jpg"
   },
   {
     "id": "dm26rp1-S005",
@@ -388,7 +388,7 @@
       "ドラゴン",
       "ゾンビ"
     ],
-    "image": "data/images/dm26rp1-S005.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-S005.jpg"
   },
   {
     "id": "dm26rp1-S006",
@@ -402,7 +402,7 @@
       "コマンド",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-S006.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-S006a.jpg"
   },
   {
     "id": "dm26rp1-S007",
@@ -416,7 +416,7 @@
       "ドラゴン",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-S007.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-S007a.jpg"
   },
   {
     "id": "dm26rp1-S008",
@@ -432,7 +432,7 @@
       "アーク",
       "セラフィム"
     ],
-    "image": "data/images/dm26rp1-S008.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-S008.jpg"
   },
   {
     "id": "dm26rp1-S009",
@@ -445,7 +445,7 @@
       "ジャイアント",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-S009.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-S009a.jpg"
   },
   {
     "id": "dm26rp1-S010",
@@ -463,7 +463,7 @@
       "アース",
       "ドラゴン"
     ],
-    "image": "data/images/dm26rp1-S010.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-S010.jpg"
   },
   {
     "id": "dm26rp1-S011",
@@ -480,7 +480,7 @@
       "ドラゴン",
       "シノビ"
     ],
-    "image": "data/images/dm26rp1-S011.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-S011.jpg"
   },
   {
     "id": "dm26rp1-STD001",
@@ -498,7 +498,7 @@
       "ドラゴン",
       "ビートジョッキー"
     ],
-    "image": "data/images/dm26rp1-STD001.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-STD001.jpg"
   },
   {
     "id": "dm26rp1-STD004",
@@ -516,7 +516,7 @@
       "ソニック",
       "コマンド"
     ],
-    "image": "data/images/dm26rp1-STD004.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-STD004.jpg"
   },
   {
     "id": "dm26rp1-STDChoSEC001",
@@ -534,7 +534,7 @@
       "ドラゴン",
       "ビートジョッキー"
     ],
-    "image": "data/images/dm26rp1-STDChoSEC001.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-STDChoSEC001.jpg"
   },
   {
     "id": "dm26rp1-STDChoSEC004",
@@ -552,7 +552,7 @@
       "ソニック",
       "コマンド"
     ],
-    "image": "data/images/dm26rp1-STDChoSEC004.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-STDChoSEC004.jpg"
   },
   {
     "id": "dm26rp1-STDSEC001",
@@ -570,7 +570,7 @@
       "ドラゴン",
       "ビートジョッキー"
     ],
-    "image": "data/images/dm26rp1-STDSEC001.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-STDSEC001.jpg"
   },
   {
     "id": "dm26rp1-STDSEC004",
@@ -588,7 +588,7 @@
       "ソニック",
       "コマンド"
     ],
-    "image": "data/images/dm26rp1-STDSEC004.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-STDSEC004.jpg"
   },
   {
     "id": "dm26rp1-SEC013",
@@ -600,7 +600,7 @@
     "races": [
       "???"
     ],
-    "image": "data/images/dm26rp1-SEC013.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-SEC013.jpg"
   },
   {
     "id": "dm26rp1-SEC014",
@@ -616,7 +616,7 @@
       "ゾンビ",
       "ナイト"
     ],
-    "image": "data/images/dm26rp1-SEC014.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-SEC014.jpg"
   },
   {
     "id": "dm26rp1-SEC015",
@@ -628,7 +628,7 @@
       "火"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-SEC015.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-SEC015.jpg"
   },
   {
     "id": "dm26rp1-TR005",
@@ -642,7 +642,7 @@
       "トーテム",
       "侵略者"
     ],
-    "image": "data/images/dm26rp1-TR005.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-TR005.jpg"
   },
   {
     "id": "dm26rp1-TR006",
@@ -655,7 +655,7 @@
       "デーモン",
       "コマンド"
     ],
-    "image": "data/images/dm26rp1-TR006.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-TR006a.jpg"
   },
   {
     "id": "dm26rp1-TR007",
@@ -669,7 +669,7 @@
       "デスパペット",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-TR007.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-TR007a.jpg"
   },
   {
     "id": "dm26rp1-TR008",
@@ -680,7 +680,7 @@
       "火"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-TR008.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-TR008.jpg"
   },
   {
     "id": "dm26rp1-TR009",
@@ -698,7 +698,7 @@
       "ワールド",
       "コマンド"
     ],
-    "image": "data/images/dm26rp1-TR009.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-TR009.jpg"
   },
   {
     "id": "dm26rp1-TD004",
@@ -710,7 +710,7 @@
     "races": [
       "グレートメカオー"
     ],
-    "image": "data/images/dm26rp1-TD004.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-TD004.jpg"
   },
   {
     "id": "dm26rp1-001",
@@ -720,7 +720,7 @@
       "光"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-001.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-001.jpg"
   },
   {
     "id": "dm26rp1-002",
@@ -730,7 +730,7 @@
       "水"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-002.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-002.jpg"
   },
   {
     "id": "dm26rp1-003",
@@ -743,7 +743,7 @@
       "パンドラボックス",
       "デスパペット"
     ],
-    "image": "data/images/dm26rp1-003.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-003.jpg"
   },
   {
     "id": "dm26rp1-004",
@@ -755,7 +755,7 @@
     "races": [
       "???"
     ],
-    "image": "data/images/dm26rp1-004.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-004.jpg"
   },
   {
     "id": "dm26rp1-005",
@@ -769,7 +769,7 @@
       "ドラゴン",
       "サムライ"
     ],
-    "image": "data/images/dm26rp1-005.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-005.jpg"
   },
   {
     "id": "dm26rp1-006",
@@ -782,7 +782,7 @@
       "ホーン",
       "ビースト"
     ],
-    "image": "data/images/dm26rp1-006.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-006.jpg"
   },
   {
     "id": "dm26rp1-007",
@@ -798,7 +798,7 @@
       "ゾンビ",
       "ナイト"
     ],
-    "image": "data/images/dm26rp1-007.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-007.jpg"
   },
   {
     "id": "dm26rp1-008",
@@ -811,7 +811,7 @@
     "races": [
       "サムライ"
     ],
-    "image": "data/images/dm26rp1-008.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-008.jpg"
   },
   {
     "id": "dm26rp1-009",
@@ -825,7 +825,7 @@
       "ゴッド",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-009.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-009a.jpg"
   },
   {
     "id": "dm26rp1-010",
@@ -839,7 +839,7 @@
       "ゴッド",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-010.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-010a.jpg"
   },
   {
     "id": "dm26rp1-011",
@@ -851,7 +851,7 @@
       "火"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-011.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-011.jpg"
   },
   {
     "id": "dm26rp1-SEC016",
@@ -865,7 +865,7 @@
       "フレイム",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-SEC016.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-SEC016a.jpg"
   },
   {
     "id": "dm26rp1-SEC017",
@@ -879,7 +879,7 @@
       "バード",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-SEC017.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-SEC017a.jpg"
   },
   {
     "id": "dm26rp1-SEC018",
@@ -892,7 +892,7 @@
       "ティラノ",
       "ドレイク"
     ],
-    "image": "data/images/dm26rp1-SEC018.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-SEC018.jpg"
   },
   {
     "id": "dm26rp1-T001",
@@ -906,7 +906,7 @@
       "セラフィム",
       "オリジン"
     ],
-    "image": "data/images/dm26rp1-T001.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-T001a.jpg"
   },
   {
     "id": "dm26rp1-T002",
@@ -919,7 +919,7 @@
       "サイバーロード",
       "チーム銀河"
     ],
-    "image": "data/images/dm26rp1-T002.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-T002.jpg"
   },
   {
     "id": "dm26rp1-T003",
@@ -931,7 +931,7 @@
     "races": [
       "パンドラボックス"
     ],
-    "image": "data/images/dm26rp1-T003.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-T003a.jpg"
   },
   {
     "id": "dm26rp1-T004",
@@ -941,7 +941,7 @@
       "闇"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-T004.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-T004.jpg"
   },
   {
     "id": "dm26rp1-SP004",
@@ -955,7 +955,7 @@
       "アポロニア",
       "ドラゴン"
     ],
-    "image": "data/images/dm26rp1-SP004.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-SP004.jpg"
   },
   {
     "id": "dm26rp1-SP005",
@@ -971,7 +971,7 @@
       "コマンド",
       "ナイト"
     ],
-    "image": "data/images/dm26rp1-SP005.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-SP005.jpg"
   },
   {
     "id": "dm26rp1-012",
@@ -985,7 +985,7 @@
       "セラフィム",
       "オリジン"
     ],
-    "image": "data/images/dm26rp1-012.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-012.jpg"
   },
   {
     "id": "dm26rp1-013",
@@ -999,7 +999,7 @@
       "フレイム",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-013.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-013a.jpg"
   },
   {
     "id": "dm26rp1-014",
@@ -1013,7 +1013,7 @@
       "フレイム",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-014.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-014a.jpg"
   },
   {
     "id": "dm26rp1-015",
@@ -1027,7 +1027,7 @@
       "クイーン",
       "サイバーロード"
     ],
-    "image": "data/images/dm26rp1-015.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-015.jpg"
   },
   {
     "id": "dm26rp1-016",
@@ -1041,7 +1041,7 @@
       "バード",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-016.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-016a.jpg"
   },
   {
     "id": "dm26rp1-017",
@@ -1054,7 +1054,7 @@
       "ティラノ",
       "ドレイク"
     ],
-    "image": "data/images/dm26rp1-017.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-017.jpg"
   },
   {
     "id": "dm26rp1-018",
@@ -1067,7 +1067,7 @@
       "アーマード",
       "ドラゴン"
     ],
-    "image": "data/images/dm26rp1-018.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-018.jpg"
   },
   {
     "id": "dm26rp1-019",
@@ -1083,7 +1083,7 @@
       "ドレイク",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-019.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-019a.jpg"
   },
   {
     "id": "dm26rp1-020",
@@ -1098,7 +1098,7 @@
       "オリジン",
       "シノビ"
     ],
-    "image": "data/images/dm26rp1-020.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-020.jpg"
   },
   {
     "id": "dm26rp1-021",
@@ -1111,7 +1111,7 @@
       "ゴッド",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-021.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-021a.jpg"
   },
   {
     "id": "dm26rp1-022",
@@ -1125,7 +1125,7 @@
       "ビークル",
       "ビー"
     ],
-    "image": "data/images/dm26rp1-022.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-022.jpg"
   },
   {
     "id": "dm26rp1-023",
@@ -1136,7 +1136,7 @@
       "水"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-023.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-023.jpg"
   },
   {
     "id": "dm26rp1-024",
@@ -1147,7 +1147,7 @@
       "自然"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-024.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-024.jpg"
   },
   {
     "id": "dm26rp1-025",
@@ -1158,7 +1158,7 @@
       "闇"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-025.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-025.jpg"
   },
   {
     "id": "dm26rp1-026",
@@ -1169,7 +1169,7 @@
       "火"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-026.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-026.jpg"
   },
   {
     "id": "dm26rp1-027",
@@ -1180,7 +1180,7 @@
       "自然"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-027.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-027.jpg"
   },
   {
     "id": "dm26rp1-STD003",
@@ -1193,7 +1193,7 @@
       "マジック",
       "アウトレイジMAX"
     ],
-    "image": "data/images/dm26rp1-STD003.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-STD003.jpg"
   },
   {
     "id": "dm26rp1-STDChoSEC003",
@@ -1206,7 +1206,7 @@
       "マジック",
       "アウトレイジMAX"
     ],
-    "image": "data/images/dm26rp1-STDChoSEC003.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-STDChoSEC003.jpg"
   },
   {
     "id": "dm26rp1-STDSEC003",
@@ -1219,7 +1219,7 @@
       "マジック",
       "アウトレイジMAX"
     ],
-    "image": "data/images/dm26rp1-STDSEC003.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-STDSEC003.jpg"
   },
   {
     "id": "dm26rp1-SEC019",
@@ -1233,7 +1233,7 @@
       "オリジン",
       "シノビ"
     ],
-    "image": "data/images/dm26rp1-SEC019.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-SEC019.jpg"
   },
   {
     "id": "dm26rp1-SEC020",
@@ -1248,7 +1248,7 @@
       "ゾンビ",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-SEC020.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-SEC020a.jpg"
   },
   {
     "id": "dm26rp1-SEC021",
@@ -1258,7 +1258,7 @@
       "自然"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-SEC021.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-SEC021.jpg"
   },
   {
     "id": "dm26rp1-TD005",
@@ -1271,7 +1271,7 @@
       "デーモン",
       "コマンド"
     ],
-    "image": "data/images/dm26rp1-TD005.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-TD005a.jpg"
   },
   {
     "id": "dm26rp1-T005",
@@ -1281,7 +1281,7 @@
       "水"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-T005.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-T005.jpg"
   },
   {
     "id": "dm26rp1-T006",
@@ -1295,7 +1295,7 @@
       "ファイアー",
       "バード"
     ],
-    "image": "data/images/dm26rp1-T006.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-T006.jpg"
   },
   {
     "id": "dm26rp1-028",
@@ -1307,7 +1307,7 @@
     "races": [
       "グレートメカオー"
     ],
-    "image": "data/images/dm26rp1-028.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-028.jpg"
   },
   {
     "id": "dm26rp1-029",
@@ -1321,7 +1321,7 @@
       "オリジン",
       "シノビ"
     ],
-    "image": "data/images/dm26rp1-029.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-029.jpg"
   },
   {
     "id": "dm26rp1-030",
@@ -1334,7 +1334,7 @@
       "ゴッド",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-030.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-030a.jpg"
   },
   {
     "id": "dm26rp1-031",
@@ -1344,7 +1344,7 @@
       "光"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-031.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-031.jpg"
   },
   {
     "id": "dm26rp1-032",
@@ -1356,7 +1356,7 @@
     "races": [
       "マーフォーク"
     ],
-    "image": "data/images/dm26rp1-032.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-032.jpg"
   },
   {
     "id": "dm26rp1-033",
@@ -1370,7 +1370,7 @@
       "オリジン",
       "シノビ"
     ],
-    "image": "data/images/dm26rp1-033.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-033.jpg"
   },
   {
     "id": "dm26rp1-034",
@@ -1383,7 +1383,7 @@
       "ゴッド",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-034.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-034a.jpg"
   },
   {
     "id": "dm26rp1-035",
@@ -1393,7 +1393,7 @@
       "水"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-035.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-035.jpg"
   },
   {
     "id": "dm26rp1-036",
@@ -1406,7 +1406,7 @@
       "ドラゴン",
       "ゾンビ"
     ],
-    "image": "data/images/dm26rp1-036.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-036.jpg"
   },
   {
     "id": "dm26rp1-037",
@@ -1420,7 +1420,7 @@
       "オリジン",
       "シノビ"
     ],
-    "image": "data/images/dm26rp1-037.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-037.jpg"
   },
   {
     "id": "dm26rp1-038",
@@ -1435,7 +1435,7 @@
       "ゾンビ",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-038.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-038a.jpg"
   },
   {
     "id": "dm26rp1-039",
@@ -1445,7 +1445,7 @@
       "闇"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-039.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-039.jpg"
   },
   {
     "id": "dm26rp1-040",
@@ -1458,7 +1458,7 @@
       "ファイアー",
       "バード"
     ],
-    "image": "data/images/dm26rp1-040.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-040.jpg"
   },
   {
     "id": "dm26rp1-041",
@@ -1473,7 +1473,7 @@
       "ゼノパーツ",
       "シノビ"
     ],
-    "image": "data/images/dm26rp1-041.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-041.jpg"
   },
   {
     "id": "dm26rp1-042",
@@ -1487,7 +1487,7 @@
       "サムライ",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-042.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-042a.jpg"
   },
   {
     "id": "dm26rp1-043",
@@ -1497,7 +1497,7 @@
       "火"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-043.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-043.jpg"
   },
   {
     "id": "dm26rp1-044",
@@ -1509,7 +1509,7 @@
     "races": [
       "ジャイアント"
     ],
-    "image": "data/images/dm26rp1-044.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-044.jpg"
   },
   {
     "id": "dm26rp1-045",
@@ -1522,7 +1522,7 @@
       "ゴッド",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-045.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-045a.jpg"
   },
   {
     "id": "dm26rp1-046",
@@ -1532,7 +1532,7 @@
       "自然"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-046.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-046.jpg"
   },
   {
     "id": "dm26rp1-047",
@@ -1542,7 +1542,7 @@
       "自然"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-047.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-047.jpg"
   },
   {
     "id": "dm26rp1-048",
@@ -1555,7 +1555,7 @@
     "races": [
       "スターノイド"
     ],
-    "image": "data/images/dm26rp1-048.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-048.jpg"
   },
   {
     "id": "dm26rp1-049",
@@ -1569,7 +1569,7 @@
       "セイント",
       "ペガサス"
     ],
-    "image": "data/images/dm26rp1-049.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-049.jpg"
   },
   {
     "id": "dm26rp1-050",
@@ -1582,7 +1582,7 @@
     "races": [
       "ナーガ"
     ],
-    "image": "data/images/dm26rp1-050.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-050.jpg"
   },
   {
     "id": "dm26rp1-051",
@@ -1595,7 +1595,7 @@
     "races": [
       "フェニックス"
     ],
-    "image": "data/images/dm26rp1-051.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-051.jpg"
   },
   {
     "id": "dm26rp1-052",
@@ -1608,7 +1608,7 @@
     "races": [
       "フェニックス"
     ],
-    "image": "data/images/dm26rp1-052.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-052.jpg"
   },
   {
     "id": "dm26rp1-SEC022",
@@ -1618,7 +1618,7 @@
       "光"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-SEC022.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-SEC022.jpg"
   },
   {
     "id": "dm26rp1-SEC023",
@@ -1628,7 +1628,7 @@
       "水"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-SEC023.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-SEC023.jpg"
   },
   {
     "id": "dm26rp1-SEC024",
@@ -1642,7 +1642,7 @@
       "バード",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-SEC024.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-SEC024a.jpg"
   },
   {
     "id": "dm26rp1-T007",
@@ -1654,7 +1654,7 @@
     "races": [
       "グレートメカオー"
     ],
-    "image": "data/images/dm26rp1-T007.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-T007.jpg"
   },
   {
     "id": "dm26rp1-T008",
@@ -1667,7 +1667,7 @@
       "ファイアー",
       "バード"
     ],
-    "image": "data/images/dm26rp1-T008.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-T008.jpg"
   },
   {
     "id": "dm26rp1-T009",
@@ -1677,7 +1677,7 @@
       "闇"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-T009.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-T009.jpg"
   },
   {
     "id": "dm26rp1-T010",
@@ -1690,7 +1690,7 @@
       "ファイアー",
       "バード"
     ],
-    "image": "data/images/dm26rp1-T010.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-T010.jpg"
   },
   {
     "id": "dm26rp1-053",
@@ -1703,7 +1703,7 @@
       "エンジェル",
       "コマンド"
     ],
-    "image": "data/images/dm26rp1-053.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-053.jpg"
   },
   {
     "id": "dm26rp1-054",
@@ -1716,7 +1716,7 @@
       "ゴッド",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-054.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-054a.jpg"
   },
   {
     "id": "dm26rp1-055",
@@ -1726,7 +1726,7 @@
       "光"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-055.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-055.jpg"
   },
   {
     "id": "dm26rp1-056",
@@ -1736,7 +1736,7 @@
       "光"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-056.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-056.jpg"
   },
   {
     "id": "dm26rp1-057",
@@ -1746,7 +1746,7 @@
       "光"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-057.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-057.jpg"
   },
   {
     "id": "dm26rp1-058",
@@ -1759,7 +1759,7 @@
       "ゴッド",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-058.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-058a.jpg"
   },
   {
     "id": "dm26rp1-059",
@@ -1769,7 +1769,7 @@
       "水"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-059.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-059.jpg"
   },
   {
     "id": "dm26rp1-060",
@@ -1779,7 +1779,7 @@
       "水"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-060.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-060.jpg"
   },
   {
     "id": "dm26rp1-061",
@@ -1789,7 +1789,7 @@
       "水"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-061.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-061.jpg"
   },
   {
     "id": "dm26rp1-062",
@@ -1799,7 +1799,7 @@
       "水"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-062.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-062.jpg"
   },
   {
     "id": "dm26rp1-063",
@@ -1813,7 +1813,7 @@
       "フレイム",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-063.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-063a.jpg"
   },
   {
     "id": "dm26rp1-064",
@@ -1825,7 +1825,7 @@
     "races": [
       "デスパペット"
     ],
-    "image": "data/images/dm26rp1-064.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-064.jpg"
   },
   {
     "id": "dm26rp1-065",
@@ -1835,7 +1835,7 @@
       "闇"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-065.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-065.jpg"
   },
   {
     "id": "dm26rp1-066",
@@ -1845,7 +1845,7 @@
       "闇"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-066.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-066.jpg"
   },
   {
     "id": "dm26rp1-067",
@@ -1855,7 +1855,7 @@
       "闇"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-067.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-067.jpg"
   },
   {
     "id": "dm26rp1-068",
@@ -1867,7 +1867,7 @@
     "races": [
       "ドラゴノイド"
     ],
-    "image": "data/images/dm26rp1-068.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-068.jpg"
   },
   {
     "id": "dm26rp1-069",
@@ -1881,7 +1881,7 @@
       "バード",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-069.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-069a.jpg"
   },
   {
     "id": "dm26rp1-070",
@@ -1891,7 +1891,7 @@
       "火"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-070.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-070.jpg"
   },
   {
     "id": "dm26rp1-071",
@@ -1901,7 +1901,7 @@
       "火"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-071.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-071.jpg"
   },
   {
     "id": "dm26rp1-072",
@@ -1911,7 +1911,7 @@
       "火"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-072.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-072.jpg"
   },
   {
     "id": "dm26rp1-073",
@@ -1924,7 +1924,7 @@
       "ゴッド",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-073.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-073a.jpg"
   },
   {
     "id": "dm26rp1-074",
@@ -1937,7 +1937,7 @@
       "ワイルド",
       "ベジーズ"
     ],
-    "image": "data/images/dm26rp1-074.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-074.jpg"
   },
   {
     "id": "dm26rp1-075",
@@ -1947,7 +1947,7 @@
       "自然"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-075.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-075.jpg"
   },
   {
     "id": "dm26rp1-076",
@@ -1957,7 +1957,7 @@
       "自然"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-076.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-076.jpg"
   },
   {
     "id": "dm26rp1-077",
@@ -1967,7 +1967,7 @@
       "自然"
     ],
     "races": [],
-    "image": "data/images/dm26rp1-077.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-077.jpg"
   },
   {
     "id": "dm26rp1-STD002",
@@ -1981,7 +1981,7 @@
       "コマンド",
       "ドラゴン"
     ],
-    "image": "data/images/dm26rp1-STD002.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-STD002.jpg"
   },
   {
     "id": "dm26rp1-STDChoSEC002",
@@ -1995,7 +1995,7 @@
       "コマンド",
       "ドラゴン"
     ],
-    "image": "data/images/dm26rp1-STDChoSEC002.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-STDChoSEC002.jpg"
   },
   {
     "id": "dm26rp1-STDSEC002",
@@ -2009,7 +2009,7 @@
       "コマンド",
       "ドラゴン"
     ],
-    "image": "data/images/dm26rp1-STDSEC002.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-STDSEC002.jpg"
   },
   {
     "id": "dm26rp1-DM001",
@@ -2024,7 +2024,7 @@
       "ドラゴン",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-DM001.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-DM001a.jpg"
   },
   {
     "id": "dm26rp1-DM001SEC",
@@ -2039,7 +2039,7 @@
       "ドラゴン",
       "超化獣"
     ],
-    "image": "data/images/dm26rp1-DM001SEC.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26rp1-DM001SECa.jpg"
   },
   {
     "id": "dm26sd1-m001",
@@ -2052,7 +2052,7 @@
     "races": [
       "アビスロイヤル"
     ],
-    "image": "data/images/dm26sd1-m001.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-m001.jpg"
   },
   {
     "id": "dm26sd1-m001SEC",
@@ -2065,7 +2065,7 @@
     "races": [
       "アビスロイヤル"
     ],
-    "image": "data/images/dm26sd1-m001SEC.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-m001SEC.jpg"
   },
   {
     "id": "dm26sd1-m001STAR",
@@ -2078,7 +2078,7 @@
     "races": [
       "アビスロイヤル"
     ],
-    "image": "data/images/dm26sd1-m001STAR.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-m001STAR.jpg"
   },
   {
     "id": "dm26sd1-m003F",
@@ -2090,7 +2090,7 @@
     "races": [
       "アビスキマイラ"
     ],
-    "image": "data/images/dm26sd1-m003F.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-m003F.jpg"
   },
   {
     "id": "dm26sd1-m003SEC",
@@ -2102,7 +2102,7 @@
     "races": [
       "アビスキマイラ"
     ],
-    "image": "data/images/dm26sd1-m003SEC.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-m003SEC.jpg"
   },
   {
     "id": "dm26sd1-m004",
@@ -2114,7 +2114,7 @@
     "races": [
       "アビスロイヤル"
     ],
-    "image": "data/images/dm26sd1-m004.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-m004.jpg"
   },
   {
     "id": "dm26sd1-s001",
@@ -2129,7 +2129,7 @@
       "ステラ",
       "シノビ"
     ],
-    "image": "data/images/dm26sd1-s001.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-s001.jpg"
   },
   {
     "id": "dm26sd1-s001STAR",
@@ -2144,7 +2144,7 @@
       "ステラ",
       "シノビ"
     ],
-    "image": "data/images/dm26sd1-s001STAR.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-s001STAR.jpg"
   },
   {
     "id": "dm26sd1-i001",
@@ -2160,7 +2160,7 @@
       "ゲーム",
       "コマンド"
     ],
-    "image": "data/images/dm26sd1-i001.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-i001.jpg"
   },
   {
     "id": "dm26sd1-i001STAR",
@@ -2176,7 +2176,7 @@
       "ゲーム",
       "コマンド"
     ],
-    "image": "data/images/dm26sd1-i001STAR.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-i001STAR.jpg"
   },
   {
     "id": "dm26sd1-g001",
@@ -2190,7 +2190,7 @@
       "アーマード",
       "ドラゴン"
     ],
-    "image": "data/images/dm26sd1-g001.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-g001.jpg"
   },
   {
     "id": "dm26sd1-g001STAR",
@@ -2204,7 +2204,7 @@
       "アーマード",
       "ドラゴン"
     ],
-    "image": "data/images/dm26sd1-g001STAR.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-g001STAR.jpg"
   },
   {
     "id": "dm26sd1-a001",
@@ -2216,7 +2216,7 @@
     "races": [
       "スノーフェアリー"
     ],
-    "image": "data/images/dm26sd1-a001.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-a001.jpg"
   },
   {
     "id": "dm26sd1-a001STAR",
@@ -2228,7 +2228,7 @@
     "races": [
       "スノーフェアリー"
     ],
-    "image": "data/images/dm26sd1-a001STAR.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-a001STAR.jpg"
   },
   {
     "id": "dm26sd1-a002F",
@@ -2247,7 +2247,7 @@
       "ドラゴン",
       "ゾンビ"
     ],
-    "image": "data/images/dm26sd1-a002F.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-a002F.jpg"
   },
   {
     "id": "dm26sd1-a004",
@@ -2259,7 +2259,7 @@
     "races": [
       "アウトレイジMAX"
     ],
-    "image": "data/images/dm26sd1-a004.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-a004.jpg"
   },
   {
     "id": "dm26sd1-a005",
@@ -2272,7 +2272,7 @@
       "デーモン",
       "コマンド"
     ],
-    "image": "data/images/dm26sd1-a005.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-a005.jpg"
   },
   {
     "id": "dm26sd1-a006",
@@ -2282,7 +2282,7 @@
       "闇"
     ],
     "races": [],
-    "image": "data/images/dm26sd1-a006.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-a006.jpg"
   },
   {
     "id": "dm26sd1-a007",
@@ -2301,7 +2301,7 @@
       "ドラゴン",
       "ハンター"
     ],
-    "image": "data/images/dm26sd1-a007.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-a007.jpg"
   },
   {
     "id": "dm26sd1-h001",
@@ -2320,7 +2320,7 @@
       "ドラゴン",
       "ハンター"
     ],
-    "image": "data/images/dm26sd1-h001.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-h001.jpg"
   },
   {
     "id": "dm26sd1-h001SEC",
@@ -2339,7 +2339,7 @@
       "ドラゴン",
       "ハンター"
     ],
-    "image": "data/images/dm26sd1-h001SEC.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-h001SEC.jpg"
   },
   {
     "id": "dm26sd1-h001STAR",
@@ -2358,7 +2358,7 @@
       "ドラゴン",
       "ハンター"
     ],
-    "image": "data/images/dm26sd1-h001STAR.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-h001STAR.jpg"
   },
   {
     "id": "dm26sd1-h002",
@@ -2373,7 +2373,7 @@
       "アーマード",
       "ドラゴン"
     ],
-    "image": "data/images/dm26sd1-h002.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-h002.jpg"
   },
   {
     "id": "dm26sd1-h002F",
@@ -2388,7 +2388,7 @@
       "アーマード",
       "ドラゴン"
     ],
-    "image": "data/images/dm26sd1-h002F.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-h002F.jpg"
   },
   {
     "id": "dm26sd1-h002SECA",
@@ -2403,7 +2403,7 @@
       "アーマード",
       "ドラゴン"
     ],
-    "image": "data/images/dm26sd1-h002SECA.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-h002SECA.jpg"
   },
   {
     "id": "dm26sd1-h002SECB",
@@ -2418,7 +2418,7 @@
       "アーマード",
       "ドラゴン"
     ],
-    "image": "data/images/dm26sd1-h002SECB.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-h002SECB.jpg"
   },
   {
     "id": "dm26sd1-h007",
@@ -2433,7 +2433,7 @@
       "ドラゴン",
       "暴拳王国"
     ],
-    "image": "data/images/dm26sd1-h007.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-h007.jpg"
   },
   {
     "id": "dm26sd1-h008",
@@ -2450,7 +2450,7 @@
       "ドレミ団",
       "革命軍"
     ],
-    "image": "data/images/dm26sd1-h008.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-h008a.jpg"
   },
   {
     "id": "dm26sd1-c001",
@@ -2464,7 +2464,7 @@
       "デモニオ",
       "鬼札王国"
     ],
-    "image": "data/images/dm26sd1-c001.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-c001.jpg"
   },
   {
     "id": "dm26sd1-c001STAR",
@@ -2478,7 +2478,7 @@
       "デモニオ",
       "鬼札王国"
     ],
-    "image": "data/images/dm26sd1-c001STAR.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-c001STAR.jpg"
   },
   {
     "id": "dm26sd1-c002F",
@@ -2494,7 +2494,7 @@
       "ドラゴン",
       "ダークロード"
     ],
-    "image": "data/images/dm26sd1-c002F.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-c002F.jpg"
   },
   {
     "id": "dm26sd1-c007",
@@ -2511,7 +2511,7 @@
       "ドレミ団",
       "革命軍"
     ],
-    "image": "data/images/dm26sd1-c007.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-c007a.jpg"
   },
   {
     "id": "dm26sd1-e001",
@@ -2529,7 +2529,7 @@
       "ドラゴン",
       "アンノウン"
     ],
-    "image": "data/images/dm26sd1-e001.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-e001.jpg"
   },
   {
     "id": "dm26sd1-e001STAR",
@@ -2547,7 +2547,7 @@
       "ドラゴン",
       "アンノウン"
     ],
-    "image": "data/images/dm26sd1-e001STAR.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-e001STAR.jpg"
   },
   {
     "id": "dm26sd1-e002F",
@@ -2559,7 +2559,7 @@
     "races": [
       "ドルスザク"
     ],
-    "image": "data/images/dm26sd1-e002F.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-e002F.jpg"
   },
   {
     "id": "dm26sd1-e004",
@@ -2576,7 +2576,7 @@
       "ドレミ団",
       "革命軍"
     ],
-    "image": "data/images/dm26sd1-e004.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-e004a.jpg"
   },
   {
     "id": "dm26sd1-m005",
@@ -2588,7 +2588,7 @@
     "races": [
       "アビスロイヤル"
     ],
-    "image": "data/images/dm26sd1-m005.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-m005.jpg"
   },
   {
     "id": "dm26sd1-m006",
@@ -2598,7 +2598,7 @@
       "闇"
     ],
     "races": [],
-    "image": "data/images/dm26sd1-m006.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-m006.jpg"
   },
   {
     "id": "dm26sd1-m007",
@@ -2610,7 +2610,7 @@
     "races": [
       "ヴェールアビス"
     ],
-    "image": "data/images/dm26sd1-m007.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-m007.jpg"
   },
   {
     "id": "dm26sd1-q001",
@@ -2624,7 +2624,7 @@
       "ジャイアント",
       "ドラゴン"
     ],
-    "image": "data/images/dm26sd1-q001.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-q001.jpg"
   },
   {
     "id": "dm26sd1-q001STAR",
@@ -2638,7 +2638,7 @@
       "ジャイアント",
       "ドラゴン"
     ],
-    "image": "data/images/dm26sd1-q001STAR.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-q001STAR.jpg"
   },
   {
     "id": "dm26sd1-q002F",
@@ -2651,7 +2651,7 @@
       "ジャイアント",
       "スノーフェアリー"
     ],
-    "image": "data/images/dm26sd1-q002F.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-q002F.jpg"
   },
   {
     "id": "dm26sd1-q003",
@@ -2664,7 +2664,7 @@
       "ジャイアント",
       "ドラゴン"
     ],
-    "image": "data/images/dm26sd1-q003.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-q003.jpg"
   },
   {
     "id": "dm26sd1-q004",
@@ -2676,126 +2676,170 @@
     "races": [
       "ジャイアント"
     ],
-    "image": "data/images/dm26sd1-q004.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-q004a.jpg"
   },
   {
-    "id": "dm26sd1-l007",
-    "name": "流星のガイアッシュ・カイザー",
-    "cost": 6,
+    "id": "dm26sd1-q005",
+    "name": "完璧妖精マリニャンX",
+    "cost": 5,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [
+      "ジャイアント",
+      "スノーフェアリー"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-q005.jpg"
+  },
+  {
+    "id": "dm26sd1-q006",
+    "name": "終の怒流牙 ドルゲユキムラ",
+    "cost": 8,
     "civilizations": [
       "水",
       "自然"
     ],
     "races": [
-      "ブルー",
-      "コマンド",
-      "ドラゴン",
-      "グリーン",
-      "コマンド",
-      "ドラゴン",
-      "ハンター"
+      "ジャイアント",
+      "アースイーター",
+      "シノビ"
     ],
-    "image": "data/images/dm26sd1-l007.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-q006.jpg"
   },
   {
-    "id": "dm26sd1-n001",
-    "name": "ジョギラゴン＆ジョニー ～Jの旅路～",
-    "cost": 8,
+    "id": "dm26sd1-q007",
+    "name": "銀河竜 ゴルファンタジスタ",
+    "cost": 7,
     "civilizations": [
-      "ゼロ"
-    ],
-    "races": [
-      "ジョーカーズ",
-      "ドラゴン"
-    ],
-    "image": "data/images/dm26sd1-n001.jpg"
-  },
-  {
-    "id": "dm26sd1-n001SEC",
-    "name": "ジョギラゴン＆ジョニー ～Jの旅路～",
-    "cost": 8,
-    "civilizations": [
-      "ゼロ"
-    ],
-    "races": [
-      "ジョーカーズ",
-      "ドラゴン"
-    ],
-    "image": "data/images/dm26sd1-n001SEC.jpg"
-  },
-  {
-    "id": "dm26sd1-n001STAR",
-    "name": "ジョギラゴン＆ジョニー ～Jの旅路～",
-    "cost": 8,
-    "civilizations": [
-      "ゼロ"
-    ],
-    "races": [
-      "ジョーカーズ",
-      "ドラゴン"
-    ],
-    "image": "data/images/dm26sd1-n001STAR.jpg"
-  },
-  {
-    "id": "dm26sd1-n002",
-    "name": "MMM-ジョーキング",
-    "cost": 5,
-    "civilizations": [
-      "光",
+      "水",
       "自然"
     ],
     "races": [
-      "ジョーカーズ",
-      "ドラゴン",
-      "レクスターズ"
+      "ジャイアント",
+      "ドラゴン"
     ],
-    "image": "data/images/dm26sd1-n002.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-q007.jpg"
   },
   {
-    "id": "dm26sd1-n002F",
-    "name": "MMM-ジョーキング",
+    "id": "dm26sd1-s002F",
+    "name": "アーテル・ゴルギーニ",
     "cost": 5,
     "civilizations": [
-      "光",
-      "自然"
+      "闇"
     ],
     "races": [
-      "ジョーカーズ",
-      "ドラゴン",
-      "レクスターズ"
+      "メカ",
+      "デル",
+      "ディネロ",
+      "スーパーカー",
+      "ドラゴン"
     ],
-    "image": "data/images/dm26sd1-n002F.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-s002F.jpg"
   },
   {
-    "id": "dm26sd1-n002SEC",
-    "name": "MMM-ジョーキング",
+    "id": "dm26sd1-s003",
+    "name": "シェケダン・ドメチアーレ",
     "cost": 5,
-    "civilizations": [
-      "光",
-      "自然"
-    ],
-    "races": [
-      "ジョーカーズ",
-      "ドラゴン",
-      "レクスターズ"
-    ],
-    "image": "data/images/dm26sd1-n002SEC.jpg"
-  },
-  {
-    "id": "dm26sd1-n004",
-    "name": "閃光の精霊カンビアーレ",
-    "cost": 8,
     "civilizations": [
       "光"
     ],
     "races": [
-      "エンジェル",
-      "コマンド"
+      "メカ",
+      "デル",
+      "ディネロ"
     ],
-    "image": "data/images/dm26sd1-n004.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-s003.jpg"
   },
   {
-    "id": "dm26sd1-n005",
+    "id": "dm26sd1-s004",
+    "name": "ハイパー・エン・ゲルス",
+    "cost": 4,
+    "civilizations": [
+      "光"
+    ],
+    "races": [
+      "メカ",
+      "エンジェル",
+      "コマンド",
+      "超化獣"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-s004a.jpg"
+  },
+  {
+    "id": "dm26sd1-s005",
+    "name": "獲銀月 ペトローバ",
+    "cost": 3,
+    "civilizations": [
+      "光"
+    ],
+    "races": [
+      "メカ",
+      "デル",
+      "ソル",
+      "超化獣"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-s005a.jpg"
+  },
+  {
+    "id": "dm26sd1-s006",
+    "name": "千羽忍革 ボジソワカ",
+    "cost": 7,
+    "civilizations": [
+      "光",
+      "闇"
+    ],
+    "races": [
+      "メカ",
+      "デル",
+      "ステラ",
+      "シノビ"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-s006.jpg"
+  },
+  {
+    "id": "dm26sd1-b001",
+    "name": "龍風混成 ザーディクリカ",
+    "cost": 7,
+    "civilizations": [
+      "光",
+      "水",
+      "火"
+    ],
+    "races": [
+      "ディスペクター",
+      "クリスタル",
+      "コマンド",
+      "ドラゴン",
+      "エンジェル",
+      "コマンド",
+      "メルト",
+      "ウォリアー"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-b001.jpg"
+  },
+  {
+    "id": "dm26sd1-b001STAR",
+    "name": "龍風混成 ザーディクリカ",
+    "cost": 7,
+    "civilizations": [
+      "光",
+      "水",
+      "火"
+    ],
+    "races": [
+      "ディスペクター",
+      "クリスタル",
+      "コマンド",
+      "ドラゴン",
+      "エンジェル",
+      "コマンド",
+      "メルト",
+      "ウォリアー"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-b001STAR.jpg"
+  },
+  {
+    "id": "dm26sd1-b002F",
     "name": "王道の革命 ドギラゴン",
     "cost": 5,
     "civilizations": [
@@ -2809,575 +2853,577 @@
       "ドラゴン",
       "革命軍"
     ],
-    "image": "data/images/dm26sd1-n005.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-b002F.jpg"
   },
   {
-    "id": "dm26sd1-p001",
-    "name": "天風のゲイル・ヴェスパー",
-    "cost": 10,
+    "id": "dm26sd1-b004",
+    "name": "SSS級天災 デッドダムド",
+    "cost": 8,
     "civilizations": [
+      "水",
+      "闇",
       "自然"
     ],
     "races": [
-      "グランセクト"
+      "トリニティ",
+      "コマンド",
+      "S級侵略者"
     ],
-    "image": "data/images/dm26sd1-p001.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-b004.jpg"
   },
   {
-    "id": "dm26sd1-p001STAR",
-    "name": "天風のゲイル・ヴェスパー",
-    "cost": 10,
-    "civilizations": [
-      "自然"
-    ],
-    "races": [
-      "グランセクト"
-    ],
-    "image": "data/images/dm26sd1-p001STAR.jpg"
-  },
-  {
-    "id": "dm26sd1-p002F",
-    "name": "水上第九院 シャコガイル",
-    "cost": 9,
+    "id": "dm26sd1-d001",
+    "name": "月下卍壊 ガ・リュミーズ 卍",
+    "cost": 99,
     "civilizations": [
       "水"
     ],
     "races": [
-      "ムートピア"
+      "ドルスザク"
     ],
-    "image": "data/images/dm26sd1-p002F.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-d001.jpg"
   },
   {
-    "id": "dm26sd1-p003",
-    "name": "ジーク・ナハトファルター",
+    "id": "dm26sd1-d001STAR",
+    "name": "月下卍壊 ガ・リュミーズ 卍",
+    "cost": 99,
+    "civilizations": [
+      "水"
+    ],
+    "races": [
+      "ドルスザク"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-d001STAR.jpg"
+  },
+  {
+    "id": "dm26sd1-d002F",
+    "name": "頂上混成 ガリュディアス・モモミーズ’22",
+    "cost": 99,
+    "civilizations": [
+      "光",
+      "水",
+      "火"
+    ],
+    "races": [
+      "ディスペクター",
+      "ジョーカーズ",
+      "ドラゴン",
+      "ドルスザク"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-d002F.jpg"
+  },
+  {
+    "id": "dm26sd1-d003",
+    "name": "卍月 ガ・リュザーク 卍 / 「すべて見えているぞ！」",
+    "cost": 9,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [
+      "マスター",
+      "ドルスザク",
+      "マフィ",
+      "ギャング"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-d003a.jpg"
+  },
+  {
+    "id": "dm26sd1-d004",
+    "name": "「無月」の頂 ＄スザーク＄",
+    "cost": 10,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [
+      "ドルスザク",
+      "マフィ",
+      "ギャング",
+      "ゼニス"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-d004.jpg"
+  },
+  {
+    "id": "dm26sd1-d005",
+    "name": "ガル・ラガンザーク",
+    "cost": 8,
+    "civilizations": [
+      "水",
+      "闇"
+    ],
+    "races": [
+      "ドルスザク",
+      "マフィ",
+      "ギャング"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-d005.jpg"
+  },
+  {
+    "id": "dm26sd1-i002F",
+    "name": "Napo獅子-Vi無粋 / ♪オレの歌 聞けよ聞かなきゃ 殴り合い",
+    "cost": 5,
+    "civilizations": [
+      "火"
+    ],
+    "races": [
+      "マジック",
+      "ニトロ",
+      "ドラゴン"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-i002Fa.jpg"
+  },
+  {
+    "id": "dm26sd1-j001",
+    "name": "ガチャンコ ガチロボ",
+    "cost": 6,
+    "civilizations": [
+      "水"
+    ],
+    "races": [
+      "グレートメカオー",
+      "侵略者"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-j001.jpg"
+  },
+  {
+    "id": "dm26sd1-j001STAR",
+    "name": "ガチャンコ ガチロボ",
+    "cost": 6,
+    "civilizations": [
+      "水"
+    ],
+    "races": [
+      "グレートメカオー",
+      "侵略者"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-j001STAR.jpg"
+  },
+  {
+    "id": "dm26sd1-j002F",
+    "name": "永遠のリュウセイ・カイザー",
+    "cost": 8,
+    "civilizations": [
+      "火"
+    ],
+    "races": [
+      "レッド",
+      "コマンド",
+      "ドラゴン",
+      "ハンター"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-j002F.jpg"
+  },
+  {
+    "id": "dm26sd1-j004",
+    "name": "閃光の精霊カンビアーレ",
+    "cost": 8,
+    "civilizations": [
+      "光"
+    ],
+    "races": [
+      "エンジェル",
+      "コマンド"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-j004.jpg"
+  },
+  {
+    "id": "dm26sd1-j005",
+    "name": "ボルシャック・ガラワルド",
+    "cost": 8,
+    "civilizations": [
+      "火"
+    ],
+    "races": [
+      "アーマード",
+      "ドラゴン"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-j005.jpg"
+  },
+  {
+    "id": "dm26sd1-j006",
+    "name": "カブトリアル・クーガ / ミステリー・ディザスター",
+    "cost": 8,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [
+      "グランセクト"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-j006a.jpg"
+  },
+  {
+    "id": "dm26sd1-j007",
+    "name": "ニコル・ボーラス",
+    "cost": 8,
+    "civilizations": [
+      "水",
+      "闇",
+      "火"
+    ],
+    "races": [
+      "エルダー",
+      "ドラゴン",
+      "プレインズ",
+      "ウォーカー"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-j007.jpg"
+  },
+  {
+    "id": "dm26sd1-j008",
+    "name": "不死鳥縫合 ブラック・ビッグバン",
+    "cost": 8,
+    "civilizations": [
+      "水",
+      "闇",
+      "自然"
+    ],
+    "races": [
+      "ディスペクター",
+      "フェニックス"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-j008.jpg"
+  },
+  {
+    "id": "dm26sd1-j009",
+    "name": "斬龍電融 オロチリュウセイ",
+    "cost": 8,
+    "civilizations": [
+      "水",
+      "火",
+      "自然"
+    ],
+    "races": [
+      "ディスペクター",
+      "サイバーロード",
+      "レッド",
+      "コマンド",
+      "ドラゴン"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-j009.jpg"
+  },
+  {
+    "id": "dm26sd1-j010",
+    "name": "勝災電融王 ギュカウツ・マグル",
+    "cost": 8,
+    "civilizations": [
+      "水",
+      "火",
+      "自然"
+    ],
+    "races": [
+      "ディスペクター",
+      "アウトレイジMAX",
+      "ジ",
+      "アンサー"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-j010.jpg"
+  },
+  {
+    "id": "dm26sd1-t001",
+    "name": "闘門の精霊ウェルキウス",
+    "cost": 9,
+    "civilizations": [
+      "光"
+    ],
+    "races": [
+      "エンジェル",
+      "コマンド"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-t001.jpg"
+  },
+  {
+    "id": "dm26sd1-t001STAR",
+    "name": "闘門の精霊ウェルキウス",
+    "cost": 9,
+    "civilizations": [
+      "光"
+    ],
+    "races": [
+      "エンジェル",
+      "コマンド"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-t001STAR.jpg"
+  },
+  {
+    "id": "dm26sd1-t002F",
+    "name": "冥界を統べる新月のハーデス",
+    "cost": 9,
+    "civilizations": [
+      "光",
+      "闇"
+    ],
+    "races": [
+      "エンジェル",
+      "コマンド",
+      "デーモン",
+      "コマンド",
+      "月光王国"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-t002F.jpg"
+  },
+  {
+    "id": "dm26sd1-t004",
+    "name": "剛撃聖霊シェバ・エリクシア",
+    "cost": 8,
+    "civilizations": [
+      "光",
+      "自然"
+    ],
+    "races": [
+      "ジャイアント",
+      "エンジェル",
+      "コマンド"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-t004.jpg"
+  },
+  {
+    "id": "dm26sd1-t005",
+    "name": "邪光魔縛 ネロマノフ=ルドルフⅠ世",
+    "cost": 7,
+    "civilizations": [
+      "光",
+      "闇",
+      "自然"
+    ],
+    "races": [
+      "ディスペクター",
+      "エンジェル",
+      "コマンド",
+      "ダークロード",
+      "ナイト"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-t005.jpg"
+  },
+  {
+    "id": "dm26sd1-x001STAR",
+    "name": "超神星DOOM・ドラゲリオン",
+    "cost": 12,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [
+      "フェニックス",
+      "デーモン",
+      "コマンド",
+      "ドラゴン",
+      "ゾンビ"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-x001STAR.jpg"
+  },
+  {
+    "id": "dm26sd1-x002F",
+    "name": "ブラキオ龍樹",
     "cost": 11,
     "civilizations": [
       "自然"
     ],
     "races": [
-      "グランセクト"
-    ],
-    "image": "data/images/dm26sd1-p003.jpg"
-  },
-  {
-    "id": "dm26sd1-p004",
-    "name": "ナ・チュラルゴ・デンジャー / ナチュラル・トラップ",
-    "cost": 7,
-    "civilizations": [
-      "自然"
-    ],
-    "races": [
-      "グランセクト",
-      "ジャイアント"
-    ],
-    "image": "data/images/dm26sd1-p004.jpg"
-  },
-  {
-    "id": "dm26sd1-p005",
-    "name": "環嵐！ホールインワン・ヘラクレス",
-    "cost": 4,
-    "civilizations": [
-      "自然"
-    ],
-    "races": [
       "ジャイアント",
-      "インセクト",
-      "ACE"
-    ],
-    "image": "data/images/dm26sd1-p005.jpg"
-  },
-  {
-    "id": "dm26sd1-r002",
-    "name": "ヴァルキリアス・武者・ムサシ「弐天」",
-    "cost": 5,
-    "civilizations": [
-      "光",
-      "火"
-    ],
-    "races": [
-      "アーマード",
       "ドラゴン",
-      "アーマード",
-      "サムライ"
+      "不死樹王国"
     ],
-    "image": "data/images/dm26sd1-r002.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-x002F.jpg"
   },
   {
-    "id": "dm26sd1-r002F",
-    "name": "ヴァルキリアス・武者・ムサシ「弐天」",
-    "cost": 5,
-    "civilizations": [
-      "光",
-      "火"
-    ],
-    "races": [
-      "アーマード",
-      "ドラゴン",
-      "アーマード",
-      "サムライ"
-    ],
-    "image": "data/images/dm26sd1-r002F.jpg"
-  },
-  {
-    "id": "dm26sd1-r002SEC",
-    "name": "ヴァルキリアス・武者・ムサシ「弐天」",
-    "cost": 5,
-    "civilizations": [
-      "光",
-      "火"
-    ],
-    "races": [
-      "アーマード",
-      "ドラゴン",
-      "アーマード",
-      "サムライ"
-    ],
-    "image": "data/images/dm26sd1-r002SEC.jpg"
-  },
-  {
-    "id": "dm26sd1-r005",
-    "name": "音卿の精霊龍 ラフルル・ラブ / 「未来から来る、だからミラクル」",
-    "cost": 7,
-    "civilizations": [
-      "光",
-      "水"
-    ],
-    "races": [
-      "エンジェル",
-      "コマンド",
-      "ドラゴン",
-      "ドレミ団",
-      "革命軍"
-    ],
-    "image": "data/images/dm26sd1-r005.jpg"
-  },
-  {
-    "id": "dm26sd1-u001",
-    "name": "五輪の求道者 清永",
-    "cost": 6,
-    "civilizations": [
-      "光",
-      "水",
-      "自然"
-    ],
-    "races": [
-      "ドリームメイト",
-      "サムライ",
-      "ウィザード"
-    ],
-    "image": "data/images/dm26sd1-u001.jpg"
-  },
-  {
-    "id": "dm26sd1-u001STAR",
-    "name": "五輪の求道者 清永",
-    "cost": 6,
-    "civilizations": [
-      "光",
-      "水",
-      "自然"
-    ],
-    "races": [
-      "ドリームメイト",
-      "サムライ",
-      "ウィザード"
-    ],
-    "image": "data/images/dm26sd1-u001STAR.jpg"
-  },
-  {
-    "id": "dm26sd1-u003",
-    "name": "ナ・チュラルゴ・デンジャー / ナチュラル・トラップ",
-    "cost": 7,
-    "civilizations": [
-      "自然"
-    ],
-    "races": [
-      "グランセクト",
-      "ジャイアント"
-    ],
-    "image": "data/images/dm26sd1-u003.jpg"
-  },
-  {
-    "id": "dm26sd1-u004",
-    "name": "音卿の精霊龍 ラフルル・ラブ / 「未来から来る、だからミラクル」",
-    "cost": 7,
-    "civilizations": [
-      "光",
-      "水"
-    ],
-    "races": [
-      "エンジェル",
-      "コマンド",
-      "ドラゴン",
-      "ドレミ団",
-      "革命軍"
-    ],
-    "image": "data/images/dm26sd1-u004.jpg"
-  },
-  {
-    "id": "dm26sd1-u005",
-    "name": "アカシック・ゼノン",
-    "cost": 5,
-    "civilizations": [
-      "水",
-      "火",
-      "自然"
-    ],
-    "races": [
-      "サイバーロード",
-      "ジ",
-      "アンサー"
-    ],
-    "image": "data/images/dm26sd1-u005.jpg"
-  },
-  {
-    "id": "dm26sd1-v002F",
-    "name": "弾丸超邪 クロスファイア",
-    "cost": 7,
-    "civilizations": [
-      "火"
-    ],
-    "races": [
-      "マジック",
-      "アウトレイジMAX"
-    ],
-    "image": "data/images/dm26sd1-v002F.jpg"
-  },
-  {
-    "id": "dm26sd1-w001",
-    "name": "禁断の轟速 ブラックゾーン",
-    "cost": 7,
-    "civilizations": [
-      "闇",
-      "火"
-    ],
-    "races": [
-      "ソニック",
-      "コマンド",
-      "S級侵略者"
-    ],
-    "image": "data/images/dm26sd1-w001.jpg"
-  },
-  {
-    "id": "dm26sd1-w001STAR",
-    "name": "禁断の轟速 ブラックゾーン",
-    "cost": 7,
-    "civilizations": [
-      "闇",
-      "火"
-    ],
-    "races": [
-      "ソニック",
-      "コマンド",
-      "S級侵略者"
-    ],
-    "image": "data/images/dm26sd1-w001STAR.jpg"
-  },
-  {
-    "id": "dm26sd1-w003",
-    "name": "覇帝なき侵略 レッドゾーンF",
-    "cost": 6,
-    "civilizations": [
-      "火"
-    ],
-    "races": [
-      "ソニック",
-      "コマンド",
-      "侵略者"
-    ],
-    "image": "data/images/dm26sd1-w003.jpg"
-  },
-  {
-    "id": "dm26sd1-w004",
-    "name": "超次元の王家",
-    "cost": 4,
-    "civilizations": [
-      "水",
-      "火"
-    ],
-    "races": [
-      "エイリアン",
-      "ハンター",
-      "キング",
-      "コマンド"
-    ],
-    "image": "data/images/dm26sd1-w004.jpg"
-  },
-  {
-    "id": "dm26sd1-g002F",
-    "name": "超竜ヴァルキリアス",
+    "id": "dm26sd1-x005",
+    "name": "龍装鬼 オブザ08号 / 終焉の開闢",
     "cost": 9,
-    "civilizations": [
-      "火"
-    ],
-    "races": [
-      "アーマード",
-      "ドラゴン"
-    ],
-    "image": "data/images/dm26sd1-g002F.jpg"
-  },
-  {
-    "id": "dm26sd1-g003",
-    "name": "ボルシャック・ヴォルジャアク",
-    "cost": 7,
-    "civilizations": [
-      "光",
-      "火"
-    ],
-    "races": [
-      "アーマード",
-      "ドラゴン"
-    ],
-    "image": "data/images/dm26sd1-g003.jpg"
-  },
-  {
-    "id": "dm26sd1-g004",
-    "name": "輝く革命 ボルシャック・フレア",
-    "cost": 7,
-    "civilizations": [
-      "光",
-      "火"
-    ],
-    "races": [
-      "アーマード",
-      "ドラゴン"
-    ],
-    "image": "data/images/dm26sd1-g004.jpg"
-  },
-  {
-    "id": "dm26sd1-o001",
-    "name": "「正義星帝」 <ライオネル.Star>",
-    "cost": 5,
-    "civilizations": [
-      "光"
-    ],
-    "races": [
-      "メタリカ",
-      "エンジェル",
-      "コマンド",
-      "レクスターズ"
-    ],
-    "image": "data/images/dm26sd1-o001.jpg"
-  },
-  {
-    "id": "dm26sd1-o001STAR",
-    "name": "「正義星帝」 <ライオネル.Star>",
-    "cost": 5,
-    "civilizations": [
-      "光"
-    ],
-    "races": [
-      "メタリカ",
-      "エンジェル",
-      "コマンド",
-      "レクスターズ"
-    ],
-    "image": "data/images/dm26sd1-o001STAR.jpg"
-  },
-  {
-    "id": "dm26sd1-o004",
-    "name": "理想と平和の決断",
-    "cost": 4,
-    "civilizations": [
-      "光",
-      "水"
-    ],
-    "races": [],
-    "image": "data/images/dm26sd1-o004.jpg"
-  },
-  {
-    "id": "dm26sd1-y002F",
-    "name": "地封龍 ギャイア",
-    "cost": 9,
-    "civilizations": [
-      "自然"
-    ],
-    "races": [
-      "ガイア",
-      "コマンド",
-      "ドラゴン",
-      "暴拳王国"
-    ],
-    "image": "data/images/dm26sd1-y002F.jpg"
-  },
-  {
-    "id": "dm26sd1-k002F",
-    "name": "轟く革命 レッドギラゾーン",
-    "cost": 7,
-    "civilizations": [
-      "水",
-      "火",
-      "自然"
-    ],
-    "races": [
-      "ソニック",
-      "コマンド",
-      "ドラゴン",
-      "革命軍"
-    ],
-    "image": "data/images/dm26sd1-k002F.jpg"
-  },
-  {
-    "id": "dm26sd1-k004",
-    "name": "熱き侵略 レッドゾーンZ",
-    "cost": 6,
-    "civilizations": [
-      "火"
-    ],
-    "races": [
-      "ソニック",
-      "コマンド",
-      "侵略者"
-    ],
-    "image": "data/images/dm26sd1-k004.jpg"
-  },
-  {
-    "id": "dm26sd1-a008",
-    "name": "九番龍 ジゴクバンカー Par459",
-    "cost": 12,
-    "civilizations": [
-      "自然"
-    ],
-    "races": [
-      "ジャイアント",
-      "ドラゴン"
-    ],
-    "image": "data/images/dm26sd1-a008.jpg"
-  },
-  {
-    "id": "dm26sd1-a009",
-    "name": "修羅の死神フミシュナ / 「この先は修羅の道ぞ」",
-    "cost": 4,
     "civilizations": [
       "闇"
     ],
     "races": [
+      "ドラゴンギルド",
+      "マフィ",
+      "ギャング"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-x005a.jpg"
+  },
+  {
+    "id": "dm26sd1-x006",
+    "name": "大魔王 ウラギリダムス",
+    "cost": 13,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [
+      "マフィ",
+      "ギャング",
       "デーモン",
       "コマンド"
     ],
-    "image": "data/images/dm26sd1-a009.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-x006.jpg"
   },
   {
-    "id": "dm26sd1-c008",
-    "name": "♪立ち上がる 悪魔に天使 堕ちるかな",
-    "cost": 4,
+    "id": "dm26sd1-x007",
+    "name": "ドマンモ龍樹",
+    "cost": 7,
     "civilizations": [
-      "水"
-    ],
-    "races": [
-      "マジック",
-      "ソング"
-    ],
-    "image": "data/images/dm26sd1-c008.jpg"
-  },
-  {
-    "id": "dm26sd1-c009",
-    "name": "深淵の逆転撃",
-    "cost": 4,
-    "civilizations": [
-      "闇"
-    ],
-    "races": [],
-    "image": "data/images/dm26sd1-c009.jpg"
-  },
-  {
-    "id": "dm26sd1-e005",
-    "name": "氷柱と炎弧の決断",
-    "cost": 3,
-    "civilizations": [
-      "水",
-      "火"
-    ],
-    "races": [],
-    "image": "data/images/dm26sd1-e005.jpg"
-  },
-  {
-    "id": "dm26sd1-e006",
-    "name": "エンドレス・フローズン・カーニバル",
-    "cost": 15,
-    "civilizations": [
-      "光",
-      "水",
-      "自然"
-    ],
-    "races": [],
-    "image": "data/images/dm26sd1-e006.jpg"
-  },
-  {
-    "id": "dm26sd1-m008",
-    "name": "謀遠 テレスコ=テレス",
-    "cost": 5,
-    "civilizations": [
-      "闇"
-    ],
-    "races": [
-      "アビスロイヤル"
-    ],
-    "image": "data/images/dm26sd1-m008.jpg"
-  },
-  {
-    "id": "dm26sd1-q008",
-    "name": "チアスペース アカネ",
-    "cost": 5,
-    "civilizations": [
-      "水",
+      "闇",
       "自然"
     ],
     "races": [
       "ジャイアント",
-      "スノーフェアリー"
+      "ドラゴン",
+      "不死樹王国"
     ],
-    "image": "data/images/dm26sd1-q008.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-x007.jpg"
   },
   {
-    "id": "dm26sd1-s007",
-    "name": "ドラン・ゴル・ゲルス / 豪龍の記憶",
-    "cost": 5,
+    "id": "dm26sd1-x008",
+    "name": "鬼札アバクと鬼札王国",
+    "cost": 3,
     "civilizations": [
-      "光",
-      "闇"
-    ],
-    "races": [
-      "メカ",
-      "エンジェル",
-      "コマンド"
-    ],
-    "image": "data/images/dm26sd1-s007.jpg"
-  },
-  {
-    "id": "dm26sd1-b005",
-    "name": "魔誕と光喜と楽識と炎怒と哀樹の決断",
-    "cost": 5,
-    "civilizations": [
-      "光",
-      "水",
       "闇",
       "火",
       "自然"
     ],
-    "races": [],
-    "image": "data/images/dm26sd1-b005.jpg"
+    "races": [
+      "デモニオ"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-x008.jpg"
   },
   {
-    "id": "dm26sd1-d006",
-    "name": "卍 新世壊 卍",
-    "cost": 2,
+    "id": "dm26sd1-f001",
+    "name": "龍后人形メアリー・ジェニー",
+    "cost": 5,
     "civilizations": [
-      "水"
+      "水",
+      "闇"
+    ],
+    "races": [
+      "デスパペット",
+      "ドラゴンの花嫁"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-f001.jpg"
+  },
+  {
+    "id": "dm26sd1-f001STAR",
+    "name": "龍后人形メアリー・ジェニー",
+    "cost": 5,
+    "civilizations": [
+      "水",
+      "闇"
+    ],
+    "races": [
+      "デスパペット",
+      "ドラゴンの花嫁"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-f001STAR.jpg"
+  },
+  {
+    "id": "dm26sd1-f002F",
+    "name": "絶望と反魂と滅殺の決断",
+    "cost": 5,
+    "civilizations": [
+      "闇"
     ],
     "races": [],
-    "image": "data/images/dm26sd1-d006.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-f002F.jpg"
   },
   {
-    "id": "dm26sd1-i003",
-    "name": "♪立ち上がる 悪魔に天使 堕ちるかな",
-    "cost": 4,
+    "id": "dm26sd1-f003",
+    "name": "斬隠蒼頭龍バイケン",
+    "cost": 6,
     "civilizations": [
       "水"
     ],
     "races": [
-      "マジック",
-      "ソング"
+      "ポセイディア",
+      "ドラゴン",
+      "シノビ"
     ],
-    "image": "data/images/dm26sd1-i003.jpg"
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-f003.jpg"
+  },
+  {
+    "id": "dm26sd1-l003",
+    "name": "不敗のダイハード・リュウセイ",
+    "cost": 8,
+    "civilizations": [
+      "火"
+    ],
+    "races": [
+      "レッド",
+      "コマンド",
+      "ドラゴン",
+      "ハンター"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-l003.jpg"
+  },
+  {
+    "id": "dm26sd1-l003F",
+    "name": "不敗のダイハード・リュウセイ",
+    "cost": 8,
+    "civilizations": [
+      "火"
+    ],
+    "races": [
+      "レッド",
+      "コマンド",
+      "ドラゴン",
+      "ハンター"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-l003F.jpg"
+  },
+  {
+    "id": "dm26sd1-l003SEC",
+    "name": "不敗のダイハード・リュウセイ",
+    "cost": 8,
+    "civilizations": [
+      "火"
+    ],
+    "races": [
+      "レッド",
+      "コマンド",
+      "ドラゴン",
+      "ハンター"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-l003SEC.jpg"
+  },
+  {
+    "id": "dm26sd1-l004",
+    "name": "「必然」の頂 リュウセイ / 「オレの勝利だオフコース！」",
+    "cost": 10,
+    "civilizations": [
+      "火"
+    ],
+    "races": [
+      "レッド",
+      "コマンド",
+      "ドラゴン",
+      "ジャイアント",
+      "ハンター",
+      "ゼニス"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-l004a.jpg"
+  },
+  {
+    "id": "dm26sd1-l005",
+    "name": "紅に染まりし者「王牙」 / クリムゾン・ビクトリー",
+    "cost": 8,
+    "civilizations": [
+      "火"
+    ],
+    "races": [
+      "ヒューマノイド",
+      "ドラゴン",
+      "ハンター",
+      "エイリアン"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-l005a.jpg"
+  },
+  {
+    "id": "dm26sd1-l006",
+    "name": "超神龍バイラス・カースド",
+    "cost": 10,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [
+      "アース",
+      "ドラゴン",
+      "ミステリー",
+      "トーテム",
+      "ハンター"
+    ],
+    "image": "https://dm.takaratomy.co.jp/wp-content/card/cardimage/dm26sd1-l006.jpg"
   }
 ]

@@ -1,0 +1,3383 @@
+[
+  {
+    "id": "dm26rp1-SEC001",
+    "name": "逆転龍神ヘヴィ・ウィン・メタル",
+    "cost": 5,
+    "civilizations": [
+      "闇",
+      "火"
+    ],
+    "races": [
+      "ゴッド",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-SEC001.jpg"
+  },
+  {
+    "id": "dm26rp1-TR001",
+    "name": "終炎の竜皇 ボルシャック・ハイパードラゴン",
+    "cost": 5,
+    "civilizations": [
+      "火"
+    ],
+    "races": [
+      "アーマード",
+      "ドラゴン",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-TR001.jpg"
+  },
+  {
+    "id": "dm26rp1-OR001",
+    "name": "逆転龍神ヘヴィ・ウィン・メタル",
+    "cost": 5,
+    "civilizations": [
+      "闇",
+      "火"
+    ],
+    "races": [
+      "ゴッド",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-OR001.jpg"
+  },
+  {
+    "id": "dm26rp1-SEC002",
+    "name": "叡智のW インビンシブル・ギャラクシー",
+    "cost": 6,
+    "civilizations": [
+      "光"
+    ],
+    "races": [
+      "エンジェル",
+      "コマンド"
+    ],
+    "image": "data/images/dm26rp1-SEC002.jpg"
+  },
+  {
+    "id": "dm26rp1-SEC003",
+    "name": "世界のY チャクラ・デル・フィン",
+    "cost": 3,
+    "civilizations": [
+      "光"
+    ],
+    "races": [
+      "アポロニア",
+      "ドラゴン",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-SEC003.jpg"
+  },
+  {
+    "id": "dm26rp1-SEC004",
+    "name": "偉形のX エクストリーム・キリコ",
+    "cost": 6,
+    "civilizations": [
+      "水"
+    ],
+    "races": [
+      "サイバーロード",
+      "オリジン"
+    ],
+    "image": "data/images/dm26rp1-SEC004.jpg"
+  },
+  {
+    "id": "dm26rp1-SEC005",
+    "name": "旋略のS アドミラル・アレグル",
+    "cost": 2,
+    "civilizations": [
+      "水"
+    ],
+    "races": [
+      "サイバー",
+      "ムーン",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-SEC005.jpg"
+  },
+  {
+    "id": "dm26rp1-SEC006",
+    "name": "冥幽のU ブライゼジェネレイド",
+    "cost": 5,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [
+      "ドラゴン",
+      "ゾンビ"
+    ],
+    "image": "data/images/dm26rp1-SEC006.jpg"
+  },
+  {
+    "id": "dm26rp1-SEC007",
+    "name": "蝕眼のV ヴェノム・ランブル",
+    "cost": 4,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [
+      "デーモン",
+      "コマンド",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-SEC007.jpg"
+  },
+  {
+    "id": "dm26rp1-SEC008",
+    "name": "逆転の火焔ボルシャック・メビウス",
+    "cost": 5,
+    "civilizations": [
+      "火"
+    ],
+    "races": [
+      "アーマード",
+      "ドラゴン",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-SEC008.jpg"
+  },
+  {
+    "id": "dm26rp1-SEC009",
+    "name": "暴龍のT ミリオンベジータ",
+    "cost": 9,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [
+      "アース",
+      "ドラゴン",
+      "キカイヒーロー",
+      "アーク",
+      "セラフィム"
+    ],
+    "image": "data/images/dm26rp1-SEC009.jpg"
+  },
+  {
+    "id": "dm26rp1-SEC010",
+    "name": "轟腕のR ダグラジャパニカン",
+    "cost": 3,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [
+      "ジャイアント",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-SEC010.jpg"
+  },
+  {
+    "id": "dm26rp1-SEC011",
+    "name": "森仙のJ ロマネスク",
+    "cost": 8,
+    "civilizations": [
+      "光",
+      "自然"
+    ],
+    "races": [
+      "アポロニア",
+      "ドラゴン",
+      "アーマード",
+      "ドラゴン",
+      "アース",
+      "ドラゴン"
+    ],
+    "image": "data/images/dm26rp1-SEC011.jpg"
+  },
+  {
+    "id": "dm26rp1-SEC012",
+    "name": "斬隠将撃龍ニバイケン",
+    "cost": 6,
+    "civilizations": [
+      "水",
+      "火"
+    ],
+    "races": [
+      "ポセイディア",
+      "ドラゴン",
+      "アーマード",
+      "ドラゴン",
+      "シノビ"
+    ],
+    "image": "data/images/dm26rp1-SEC012.jpg"
+  },
+  {
+    "id": "dm26rp1-TR002",
+    "name": "楯教の求道者 ザゼ・ゼーン",
+    "cost": 2,
+    "civilizations": [
+      "光"
+    ],
+    "races": [
+      "メカサンダー"
+    ],
+    "image": "data/images/dm26rp1-TR002.jpg"
+  },
+  {
+    "id": "dm26rp1-TR003",
+    "name": "審判の精霊ラストジャッジ",
+    "cost": 10,
+    "civilizations": [
+      "光",
+      "水"
+    ],
+    "races": [
+      "エンジェル",
+      "コマンド"
+    ],
+    "image": "data/images/dm26rp1-TR003.jpg"
+  },
+  {
+    "id": "dm26rp1-TR004",
+    "name": "剛撃聖霊シェバ・エリクシア",
+    "cost": 8,
+    "civilizations": [
+      "光",
+      "自然"
+    ],
+    "races": [
+      "ジャイアント",
+      "エンジェル",
+      "コマンド"
+    ],
+    "image": "data/images/dm26rp1-TR004.jpg"
+  },
+  {
+    "id": "dm26rp1-TD001",
+    "name": "支配の精霊ペルフェクト / ギャラクシー・チャージャー",
+    "cost": 7,
+    "civilizations": [
+      "光"
+    ],
+    "races": [
+      "エンジェル",
+      "コマンド"
+    ],
+    "image": "data/images/dm26rp1-TD001.jpg"
+  },
+  {
+    "id": "dm26rp1-TD002",
+    "name": "超神星DOOM・ドラゲリオン",
+    "cost": 12,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [
+      "フェニックス",
+      "デーモン",
+      "コマンド",
+      "ドラゴン",
+      "ゾンビ"
+    ],
+    "image": "data/images/dm26rp1-TD002.jpg"
+  },
+  {
+    "id": "dm26rp1-TD003",
+    "name": "ボルシャック・ドリーム・ドラゴン",
+    "cost": 7,
+    "civilizations": [
+      "光",
+      "火",
+      "自然"
+    ],
+    "races": [
+      "アーマード",
+      "ドラゴン"
+    ],
+    "image": "data/images/dm26rp1-TD003.jpg"
+  },
+  {
+    "id": "dm26rp1-SP001",
+    "name": "「奇妙」の頂天 クリス=バアル",
+    "cost": 10,
+    "civilizations": [
+      "ゼロ"
+    ],
+    "races": [
+      "ゼニス",
+      "セレス"
+    ],
+    "image": "data/images/dm26rp1-SP001.jpg"
+  },
+  {
+    "id": "dm26rp1-SP002",
+    "name": "チアスカーレット アカネ",
+    "cost": 5,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [
+      "ジャイアント",
+      "スノーフェアリー"
+    ],
+    "image": "data/images/dm26rp1-SP002.jpg"
+  },
+  {
+    "id": "dm26rp1-SP003",
+    "name": "ヨビニオン・マルル",
+    "cost": 4,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [
+      "スノーフェアリー"
+    ],
+    "image": "data/images/dm26rp1-SP003.jpg"
+  },
+  {
+    "id": "dm26rp1-S001",
+    "name": "叡智のW インビンシブル・ギャラクシー",
+    "cost": 6,
+    "civilizations": [
+      "光"
+    ],
+    "races": [
+      "エンジェル",
+      "コマンド"
+    ],
+    "image": "data/images/dm26rp1-S001.jpg"
+  },
+  {
+    "id": "dm26rp1-S002",
+    "name": "世界のY チャクラ・デル・フィン",
+    "cost": 3,
+    "civilizations": [
+      "光"
+    ],
+    "races": [
+      "アポロニア",
+      "ドラゴン",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-S002.jpg"
+  },
+  {
+    "id": "dm26rp1-S003",
+    "name": "偉形のX エクストリーム・キリコ",
+    "cost": 6,
+    "civilizations": [
+      "水"
+    ],
+    "races": [
+      "サイバーロード",
+      "オリジン"
+    ],
+    "image": "data/images/dm26rp1-S003.jpg"
+  },
+  {
+    "id": "dm26rp1-S004",
+    "name": "旋略のS アドミラル・アレグル",
+    "cost": 2,
+    "civilizations": [
+      "水"
+    ],
+    "races": [
+      "サイバー",
+      "ムーン",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-S004.jpg"
+  },
+  {
+    "id": "dm26rp1-S005",
+    "name": "冥幽のU ブライゼジェネレイド",
+    "cost": 5,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [
+      "ドラゴン",
+      "ゾンビ"
+    ],
+    "image": "data/images/dm26rp1-S005.jpg"
+  },
+  {
+    "id": "dm26rp1-S006",
+    "name": "蝕眼のV ヴェノム・ランブル",
+    "cost": 4,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [
+      "デーモン",
+      "コマンド",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-S006.jpg"
+  },
+  {
+    "id": "dm26rp1-S007",
+    "name": "逆転の火焔ボルシャック・メビウス",
+    "cost": 5,
+    "civilizations": [
+      "火"
+    ],
+    "races": [
+      "アーマード",
+      "ドラゴン",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-S007.jpg"
+  },
+  {
+    "id": "dm26rp1-S008",
+    "name": "暴龍のT ミリオンベジータ",
+    "cost": 9,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [
+      "アース",
+      "ドラゴン",
+      "キカイヒーロー",
+      "アーク",
+      "セラフィム"
+    ],
+    "image": "data/images/dm26rp1-S008.jpg"
+  },
+  {
+    "id": "dm26rp1-S009",
+    "name": "轟腕のR ダグラジャパニカン",
+    "cost": 3,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [
+      "ジャイアント",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-S009.jpg"
+  },
+  {
+    "id": "dm26rp1-S010",
+    "name": "森仙のJ ロマネスク",
+    "cost": 8,
+    "civilizations": [
+      "光",
+      "自然"
+    ],
+    "races": [
+      "アポロニア",
+      "ドラゴン",
+      "アーマード",
+      "ドラゴン",
+      "アース",
+      "ドラゴン"
+    ],
+    "image": "data/images/dm26rp1-S010.jpg"
+  },
+  {
+    "id": "dm26rp1-S011",
+    "name": "斬隠将撃龍ニバイケン",
+    "cost": 6,
+    "civilizations": [
+      "水",
+      "火"
+    ],
+    "races": [
+      "ポセイディア",
+      "ドラゴン",
+      "アーマード",
+      "ドラゴン",
+      "シノビ"
+    ],
+    "image": "data/images/dm26rp1-S011.jpg"
+  },
+  {
+    "id": "dm26rp1-STD001",
+    "name": "頂上電融 クライアッシュ“覇星” ’22",
+    "cost": 10,
+    "civilizations": [
+      "水",
+      "火",
+      "自然"
+    ],
+    "races": [
+      "ディスペクター",
+      "グリーン",
+      "コマンド",
+      "ドラゴン",
+      "ビートジョッキー"
+    ],
+    "image": "data/images/dm26rp1-STD001.jpg"
+  },
+  {
+    "id": "dm26rp1-STD004",
+    "name": "頂上連結 ロッド・ゾージア5th",
+    "cost": 7,
+    "civilizations": [
+      "光",
+      "火"
+    ],
+    "races": [
+      "ディスペクター",
+      "エンジェル",
+      "コマンド",
+      "ドラゴン",
+      "ソニック",
+      "コマンド"
+    ],
+    "image": "data/images/dm26rp1-STD004.jpg"
+  },
+  {
+    "id": "dm26rp1-STDChoSEC001",
+    "name": "頂上電融 クライアッシュ“覇星” ’22",
+    "cost": 10,
+    "civilizations": [
+      "水",
+      "火",
+      "自然"
+    ],
+    "races": [
+      "ディスペクター",
+      "グリーン",
+      "コマンド",
+      "ドラゴン",
+      "ビートジョッキー"
+    ],
+    "image": "data/images/dm26rp1-STDChoSEC001.jpg"
+  },
+  {
+    "id": "dm26rp1-STDChoSEC004",
+    "name": "頂上連結 ロッド・ゾージア5th",
+    "cost": 7,
+    "civilizations": [
+      "光",
+      "火"
+    ],
+    "races": [
+      "ディスペクター",
+      "エンジェル",
+      "コマンド",
+      "ドラゴン",
+      "ソニック",
+      "コマンド"
+    ],
+    "image": "data/images/dm26rp1-STDChoSEC004.jpg"
+  },
+  {
+    "id": "dm26rp1-STDSEC001",
+    "name": "頂上電融 クライアッシュ“覇星” ’22",
+    "cost": 10,
+    "civilizations": [
+      "水",
+      "火",
+      "自然"
+    ],
+    "races": [
+      "ディスペクター",
+      "グリーン",
+      "コマンド",
+      "ドラゴン",
+      "ビートジョッキー"
+    ],
+    "image": "data/images/dm26rp1-STDSEC001.jpg"
+  },
+  {
+    "id": "dm26rp1-STDSEC004",
+    "name": "頂上連結 ロッド・ゾージア5th",
+    "cost": 7,
+    "civilizations": [
+      "光",
+      "火"
+    ],
+    "races": [
+      "ディスペクター",
+      "エンジェル",
+      "コマンド",
+      "ドラゴン",
+      "ソニック",
+      "コマンド"
+    ],
+    "image": "data/images/dm26rp1-STDSEC004.jpg"
+  },
+  {
+    "id": "dm26rp1-SEC013",
+    "name": "爆焔ジェット・メモッタ",
+    "cost": 4,
+    "civilizations": [
+      "火"
+    ],
+    "races": [
+      "???"
+    ],
+    "image": "data/images/dm26rp1-SEC013.jpg"
+  },
+  {
+    "id": "dm26rp1-SEC014",
+    "name": "邪眼鎧悪ロマノフⅣ世",
+    "cost": 5,
+    "civilizations": [
+      "光",
+      "闇"
+    ],
+    "races": [
+      "ダークロード",
+      "ドラゴン",
+      "ゾンビ",
+      "ナイト"
+    ],
+    "image": "data/images/dm26rp1-SEC014.jpg"
+  },
+  {
+    "id": "dm26rp1-SEC015",
+    "name": "宝魂剣と獄門盾の決断",
+    "cost": 3,
+    "civilizations": [
+      "光",
+      "闇",
+      "火"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-SEC015.jpg"
+  },
+  {
+    "id": "dm26rp1-TR005",
+    "name": "幻影 ミスキュー",
+    "cost": 6,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [
+      "ミステリー",
+      "トーテム",
+      "侵略者"
+    ],
+    "image": "data/images/dm26rp1-TR005.jpg"
+  },
+  {
+    "id": "dm26rp1-TR006",
+    "name": "修羅の死神フミシュナ / 「この先は修羅の道ぞ」",
+    "cost": 4,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [
+      "デーモン",
+      "コマンド"
+    ],
+    "image": "data/images/dm26rp1-TR006.jpg"
+  },
+  {
+    "id": "dm26rp1-TR007",
+    "name": "冥土人形ヴァミリア・バレル",
+    "cost": 3,
+    "civilizations": [
+      "水",
+      "闇"
+    ],
+    "races": [
+      "デスパペット",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-TR007.jpg"
+  },
+  {
+    "id": "dm26rp1-TR008",
+    "name": "氷柱と炎弧の決断",
+    "cost": 3,
+    "civilizations": [
+      "水",
+      "火"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-TR008.jpg"
+  },
+  {
+    "id": "dm26rp1-TR009",
+    "name": "覚醒連結 XXDDZ",
+    "cost": 7,
+    "civilizations": [
+      "光",
+      "闇",
+      "火"
+    ],
+    "races": [
+      "ディスペクター",
+      "アーマード",
+      "ドラゴン",
+      "ワールド",
+      "コマンド"
+    ],
+    "image": "data/images/dm26rp1-TR009.jpg"
+  },
+  {
+    "id": "dm26rp1-TD004",
+    "name": "爆藍月 スケルハンター",
+    "cost": 7,
+    "civilizations": [
+      "水"
+    ],
+    "races": [
+      "グレートメカオー"
+    ],
+    "image": "data/images/dm26rp1-TD004.jpg"
+  },
+  {
+    "id": "dm26rp1-001",
+    "name": "神羅の銀月 ザ・ラムーン",
+    "cost": 4,
+    "civilizations": [
+      "光"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-001.jpg"
+  },
+  {
+    "id": "dm26rp1-002",
+    "name": "神帝の黒月 ジ・オリジナル",
+    "cost": 5,
+    "civilizations": [
+      "水"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-002.jpg"
+  },
+  {
+    "id": "dm26rp1-003",
+    "name": "傀儡秘宝ベンゾルス",
+    "cost": 7,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [
+      "パンドラボックス",
+      "デスパペット"
+    ],
+    "image": "data/images/dm26rp1-003.jpg"
+  },
+  {
+    "id": "dm26rp1-004",
+    "name": "爆焔ジェット・メモッタ",
+    "cost": 4,
+    "civilizations": [
+      "火"
+    ],
+    "races": [
+      "???"
+    ],
+    "image": "data/images/dm26rp1-004.jpg"
+  },
+  {
+    "id": "dm26rp1-005",
+    "name": "二重のA ボルバルザーク・紫電",
+    "cost": 3,
+    "civilizations": [
+      "火"
+    ],
+    "races": [
+      "アーマード",
+      "ドラゴン",
+      "サムライ"
+    ],
+    "image": "data/images/dm26rp1-005.jpg"
+  },
+  {
+    "id": "dm26rp1-006",
+    "name": "圧倒するレオパルズ・ホーン",
+    "cost": 6,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [
+      "ホーン",
+      "ビースト"
+    ],
+    "image": "data/images/dm26rp1-006.jpg"
+  },
+  {
+    "id": "dm26rp1-007",
+    "name": "邪眼鎧悪ロマノフⅣ世",
+    "cost": 5,
+    "civilizations": [
+      "光",
+      "闇"
+    ],
+    "races": [
+      "ダークロード",
+      "ドラゴン",
+      "ゾンビ",
+      "ナイト"
+    ],
+    "image": "data/images/dm26rp1-007.jpg"
+  },
+  {
+    "id": "dm26rp1-008",
+    "name": "聖竜鎧 シデンズ・ソウル",
+    "cost": 3,
+    "civilizations": [
+      "光",
+      "火"
+    ],
+    "races": [
+      "サムライ"
+    ],
+    "image": "data/images/dm26rp1-008.jpg"
+  },
+  {
+    "id": "dm26rp1-009",
+    "name": "空神のD ドッコイ",
+    "cost": 2,
+    "civilizations": [
+      "水",
+      "自然"
+    ],
+    "races": [
+      "ゴッド",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-009.jpg"
+  },
+  {
+    "id": "dm26rp1-010",
+    "name": "魅神のG パロロ",
+    "cost": 3,
+    "civilizations": [
+      "闇",
+      "自然"
+    ],
+    "races": [
+      "ゴッド",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-010.jpg"
+  },
+  {
+    "id": "dm26rp1-011",
+    "name": "宝魂剣と獄門盾の決断",
+    "cost": 3,
+    "civilizations": [
+      "光",
+      "闇",
+      "火"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-011.jpg"
+  },
+  {
+    "id": "dm26rp1-SEC016",
+    "name": "戦技の炎 ボルメテウス・ソル",
+    "cost": 4,
+    "civilizations": [
+      "光"
+    ],
+    "races": [
+      "ミリオン",
+      "フレイム",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-SEC016.jpg"
+  },
+  {
+    "id": "dm26rp1-SEC017",
+    "name": "ゴッダマ・ルピア",
+    "cost": 3,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [
+      "ファイアー",
+      "バード",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-SEC017.jpg"
+  },
+  {
+    "id": "dm26rp1-SEC018",
+    "name": "インフェルノ・ドラグーン",
+    "cost": 3,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [
+      "ティラノ",
+      "ドレイク"
+    ],
+    "image": "data/images/dm26rp1-SEC018.jpg"
+  },
+  {
+    "id": "dm26rp1-T001",
+    "name": "霊騎コルテオ / プロテクション・サークル",
+    "cost": 7,
+    "civilizations": [
+      "光"
+    ],
+    "races": [
+      "アーク",
+      "セラフィム",
+      "オリジン"
+    ],
+    "image": "data/images/dm26rp1-T001.jpg"
+  },
+  {
+    "id": "dm26rp1-T002",
+    "name": "「策略のエメラル」",
+    "cost": 4,
+    "civilizations": [
+      "水"
+    ],
+    "races": [
+      "サイバーロード",
+      "チーム銀河"
+    ],
+    "image": "data/images/dm26rp1-T002.jpg"
+  },
+  {
+    "id": "dm26rp1-T003",
+    "name": "暴発秘宝ベンゾ / 星龍の暴発",
+    "cost": 4,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [
+      "パンドラボックス"
+    ],
+    "image": "data/images/dm26rp1-T003.jpg"
+  },
+  {
+    "id": "dm26rp1-T004",
+    "name": "邪龍秘伝ドラゴン・ボーン",
+    "cost": 7,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-T004.jpg"
+  },
+  {
+    "id": "dm26rp1-SP004",
+    "name": "光鎧龍ホーリーグレイス",
+    "cost": 6,
+    "civilizations": [
+      "光"
+    ],
+    "races": [
+      "アーマード",
+      "アポロニア",
+      "ドラゴン"
+    ],
+    "image": "data/images/dm26rp1-SP004.jpg"
+  },
+  {
+    "id": "dm26rp1-SP005",
+    "name": "真邪連結 バウ・M・ロマイオン",
+    "cost": 8,
+    "civilizations": [
+      "光",
+      "火"
+    ],
+    "races": [
+      "ディスペクター",
+      "エンジェル",
+      "コマンド",
+      "ナイト"
+    ],
+    "image": "data/images/dm26rp1-SP005.jpg"
+  },
+  {
+    "id": "dm26rp1-012",
+    "name": "霊騎ガルテオ",
+    "cost": 5,
+    "civilizations": [
+      "光"
+    ],
+    "races": [
+      "アーク",
+      "セラフィム",
+      "オリジン"
+    ],
+    "image": "data/images/dm26rp1-012.jpg"
+  },
+  {
+    "id": "dm26rp1-013",
+    "name": "戦技の炎 ボルメテウス・ソル",
+    "cost": 4,
+    "civilizations": [
+      "光"
+    ],
+    "races": [
+      "ミリオン",
+      "フレイム",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-013.jpg"
+  },
+  {
+    "id": "dm26rp1-014",
+    "name": "改竄の炎 ボルメテウス・ハック",
+    "cost": 2,
+    "civilizations": [
+      "水"
+    ],
+    "races": [
+      "ミリオン",
+      "フレイム",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-014.jpg"
+  },
+  {
+    "id": "dm26rp1-015",
+    "name": "電磁麗姫ガルリー",
+    "cost": 2,
+    "civilizations": [
+      "水"
+    ],
+    "races": [
+      "スプラッシュ",
+      "クイーン",
+      "サイバーロード"
+    ],
+    "image": "data/images/dm26rp1-015.jpg"
+  },
+  {
+    "id": "dm26rp1-016",
+    "name": "ゴッダマ・ルピア",
+    "cost": 3,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [
+      "ファイアー",
+      "バード",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-016.jpg"
+  },
+  {
+    "id": "dm26rp1-017",
+    "name": "インフェルノ・ドラグーン",
+    "cost": 3,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [
+      "ティラノ",
+      "ドレイク"
+    ],
+    "image": "data/images/dm26rp1-017.jpg"
+  },
+  {
+    "id": "dm26rp1-018",
+    "name": "メタルカオスクラッパー・ドラゴン",
+    "cost": 6,
+    "civilizations": [
+      "火"
+    ],
+    "races": [
+      "アーマード",
+      "ドラゴン"
+    ],
+    "image": "data/images/dm26rp1-018.jpg"
+  },
+  {
+    "id": "dm26rp1-019",
+    "name": "闘龍騎アポロヌス・ドラグーン",
+    "cost": 4,
+    "civilizations": [
+      "火"
+    ],
+    "races": [
+      "アーマード",
+      "ドラゴン",
+      "ティラノ",
+      "ドレイク",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-019.jpg"
+  },
+  {
+    "id": "dm26rp1-020",
+    "name": "呪遁の化身",
+    "cost": 5,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [
+      "ミステリー",
+      "トーテム",
+      "オリジン",
+      "シノビ"
+    ],
+    "image": "data/images/dm26rp1-020.jpg"
+  },
+  {
+    "id": "dm26rp1-021",
+    "name": "武神のF オルメガス",
+    "cost": 4,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [
+      "ゴッド",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-021.jpg"
+  },
+  {
+    "id": "dm26rp1-022",
+    "name": "ジェネラル・ガルガタン",
+    "cost": 3,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [
+      "ドリームメイト",
+      "ビークル",
+      "ビー"
+    ],
+    "image": "data/images/dm26rp1-022.jpg"
+  },
+  {
+    "id": "dm26rp1-023",
+    "name": "創造の天空城 ホワイト・ネオウェーブ",
+    "cost": 5,
+    "civilizations": [
+      "光",
+      "水"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-023.jpg"
+  },
+  {
+    "id": "dm26rp1-024",
+    "name": "魂が休む庭園 グリーン・グランドクロス",
+    "cost": 2,
+    "civilizations": [
+      "光",
+      "自然"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-024.jpg"
+  },
+  {
+    "id": "dm26rp1-025",
+    "name": "深き知識の神殿 ブルー・ツナミ",
+    "cost": 4,
+    "civilizations": [
+      "水",
+      "闇"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-025.jpg"
+  },
+  {
+    "id": "dm26rp1-026",
+    "name": "覇王の前線基地 ブラック・エクスプロード",
+    "cost": 4,
+    "civilizations": [
+      "闇",
+      "火"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-026.jpg"
+  },
+  {
+    "id": "dm26rp1-027",
+    "name": "燃え尽きぬ館 レッド・プロミネンス",
+    "cost": 3,
+    "civilizations": [
+      "火",
+      "自然"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-027.jpg"
+  },
+  {
+    "id": "dm26rp1-STD003",
+    "name": "終止の時計 ザ・ミュート",
+    "cost": 3,
+    "civilizations": [
+      "水"
+    ],
+    "races": [
+      "マジック",
+      "アウトレイジMAX"
+    ],
+    "image": "data/images/dm26rp1-STD003.jpg"
+  },
+  {
+    "id": "dm26rp1-STDChoSEC003",
+    "name": "終止の時計 ザ・ミュート",
+    "cost": 3,
+    "civilizations": [
+      "水"
+    ],
+    "races": [
+      "マジック",
+      "アウトレイジMAX"
+    ],
+    "image": "data/images/dm26rp1-STDChoSEC003.jpg"
+  },
+  {
+    "id": "dm26rp1-STDSEC003",
+    "name": "終止の時計 ザ・ミュート",
+    "cost": 3,
+    "civilizations": [
+      "水"
+    ],
+    "races": [
+      "マジック",
+      "アウトレイジMAX"
+    ],
+    "image": "data/images/dm26rp1-STDSEC003.jpg"
+  },
+  {
+    "id": "dm26rp1-SEC019",
+    "name": "スイトン・クロウラー",
+    "cost": 4,
+    "civilizations": [
+      "水"
+    ],
+    "races": [
+      "アースイーター",
+      "オリジン",
+      "シノビ"
+    ],
+    "image": "data/images/dm26rp1-SEC019.jpg"
+  },
+  {
+    "id": "dm26rp1-SEC020",
+    "name": "撃滅神オブリ＆レイト",
+    "cost": 2,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [
+      "ゴッド",
+      "ドラゴン",
+      "ゾンビ",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-SEC020.jpg"
+  },
+  {
+    "id": "dm26rp1-SEC021",
+    "name": "我竜塔第七層 ハッスル・キャッスル",
+    "cost": 3,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-SEC021.jpg"
+  },
+  {
+    "id": "dm26rp1-TD005",
+    "name": "混沌の獅子デスライガー / カオス・チャージャー",
+    "cost": 7,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [
+      "デーモン",
+      "コマンド"
+    ],
+    "image": "data/images/dm26rp1-TD005.jpg"
+  },
+  {
+    "id": "dm26rp1-T005",
+    "name": "サイバー・ブレイン",
+    "cost": 4,
+    "civilizations": [
+      "水"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-T005.jpg"
+  },
+  {
+    "id": "dm26rp1-T006",
+    "name": "クック・驚・ブルッチ",
+    "cost": 3,
+    "civilizations": [
+      "火"
+    ],
+    "races": [
+      "アーマード",
+      "ファイアー",
+      "バード"
+    ],
+    "image": "data/images/dm26rp1-T006.jpg"
+  },
+  {
+    "id": "dm26rp1-028",
+    "name": "超電磁工兵ガル・キーン",
+    "cost": 5,
+    "civilizations": [
+      "光"
+    ],
+    "races": [
+      "グレートメカオー"
+    ],
+    "image": "data/images/dm26rp1-028.jpg"
+  },
+  {
+    "id": "dm26rp1-029",
+    "name": "雷遁の開眼者ウッズ",
+    "cost": 3,
+    "civilizations": [
+      "光"
+    ],
+    "races": [
+      "メカサンダー",
+      "オリジン",
+      "シノビ"
+    ],
+    "image": "data/images/dm26rp1-029.jpg"
+  },
+  {
+    "id": "dm26rp1-030",
+    "name": "王神のO プロディジー",
+    "cost": 2,
+    "civilizations": [
+      "光"
+    ],
+    "races": [
+      "ゴッド",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-030.jpg"
+  },
+  {
+    "id": "dm26rp1-031",
+    "name": "我竜塔第六層 シルヴァー・グローリー",
+    "cost": 2,
+    "civilizations": [
+      "光"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-031.jpg"
+  },
+  {
+    "id": "dm26rp1-032",
+    "name": "フェイト・ガルペンター",
+    "cost": 5,
+    "civilizations": [
+      "水"
+    ],
+    "races": [
+      "マーフォーク"
+    ],
+    "image": "data/images/dm26rp1-032.jpg"
+  },
+  {
+    "id": "dm26rp1-033",
+    "name": "スイトン・クロウラー",
+    "cost": 4,
+    "civilizations": [
+      "水"
+    ],
+    "races": [
+      "アースイーター",
+      "オリジン",
+      "シノビ"
+    ],
+    "image": "data/images/dm26rp1-033.jpg"
+  },
+  {
+    "id": "dm26rp1-034",
+    "name": "源神のH エレクトロン",
+    "cost": 3,
+    "civilizations": [
+      "水"
+    ],
+    "races": [
+      "ゴッド",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-034.jpg"
+  },
+  {
+    "id": "dm26rp1-035",
+    "name": "究極我竜塔 ティーツー",
+    "cost": 3,
+    "civilizations": [
+      "水"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-035.jpg"
+  },
+  {
+    "id": "dm26rp1-036",
+    "name": "黒神龍ネオ・ドボルザーク",
+    "cost": 4,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [
+      "ドラゴン",
+      "ゾンビ"
+    ],
+    "image": "data/images/dm26rp1-036.jpg"
+  },
+  {
+    "id": "dm26rp1-037",
+    "name": "死神の影遁デスプルーフ",
+    "cost": 2,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [
+      "ゴースト",
+      "オリジン",
+      "シノビ"
+    ],
+    "image": "data/images/dm26rp1-037.jpg"
+  },
+  {
+    "id": "dm26rp1-038",
+    "name": "撃滅神オブリ＆レイト",
+    "cost": 2,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [
+      "ゴッド",
+      "ドラゴン",
+      "ゾンビ",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-038.jpg"
+  },
+  {
+    "id": "dm26rp1-039",
+    "name": "我竜塔最高層 ローズ・キャッスル",
+    "cost": 3,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-039.jpg"
+  },
+  {
+    "id": "dm26rp1-040",
+    "name": "マッハ・ガルピア",
+    "cost": 5,
+    "civilizations": [
+      "火"
+    ],
+    "races": [
+      "ファイアー",
+      "バード"
+    ],
+    "image": "data/images/dm26rp1-040.jpg"
+  },
+  {
+    "id": "dm26rp1-041",
+    "name": "破壊の神遁バジル",
+    "cost": 3,
+    "civilizations": [
+      "火"
+    ],
+    "races": [
+      "グランド",
+      "デビル",
+      "ゼノパーツ",
+      "シノビ"
+    ],
+    "image": "data/images/dm26rp1-041.jpg"
+  },
+  {
+    "id": "dm26rp1-042",
+    "name": "朱神のC ガリョウ",
+    "cost": 3,
+    "civilizations": [
+      "火"
+    ],
+    "races": [
+      "ゴッド",
+      "サムライ",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-042.jpg"
+  },
+  {
+    "id": "dm26rp1-043",
+    "name": "我竜塔第八層 バルザーク",
+    "cost": 2,
+    "civilizations": [
+      "火"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-043.jpg"
+  },
+  {
+    "id": "dm26rp1-044",
+    "name": "神嵐の超人",
+    "cost": 4,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [
+      "ジャイアント"
+    ],
+    "image": "data/images/dm26rp1-044.jpg"
+  },
+  {
+    "id": "dm26rp1-045",
+    "name": "護神のP エメラルド・ファラオ",
+    "cost": 3,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [
+      "ゴッド",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-045.jpg"
+  },
+  {
+    "id": "dm26rp1-046",
+    "name": "ガルド・ライフ",
+    "cost": 3,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-046.jpg"
+  },
+  {
+    "id": "dm26rp1-047",
+    "name": "我竜塔第七層 ハッスル・キャッスル",
+    "cost": 3,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-047.jpg"
+  },
+  {
+    "id": "dm26rp1-048",
+    "name": "英王のM スターマン",
+    "cost": 4,
+    "civilizations": [
+      "光",
+      "水"
+    ],
+    "races": [
+      "スターノイド"
+    ],
+    "image": "data/images/dm26rp1-048.jpg"
+  },
+  {
+    "id": "dm26rp1-049",
+    "name": "獣王のB ペガサス",
+    "cost": 3,
+    "civilizations": [
+      "光",
+      "自然"
+    ],
+    "races": [
+      "セイント",
+      "ペガサス"
+    ],
+    "image": "data/images/dm26rp1-049.jpg"
+  },
+  {
+    "id": "dm26rp1-050",
+    "name": "蛇王のL ナーガ",
+    "cost": 3,
+    "civilizations": [
+      "水",
+      "闇"
+    ],
+    "races": [
+      "ナーガ"
+    ],
+    "image": "data/images/dm26rp1-050.jpg"
+  },
+  {
+    "id": "dm26rp1-051",
+    "name": "死王のK デス・フェニックス",
+    "cost": 4,
+    "civilizations": [
+      "闇",
+      "火"
+    ],
+    "races": [
+      "フェニックス"
+    ],
+    "image": "data/images/dm26rp1-051.jpg"
+  },
+  {
+    "id": "dm26rp1-052",
+    "name": "魂王のE ソウル・フェニックス",
+    "cost": 5,
+    "civilizations": [
+      "火",
+      "自然"
+    ],
+    "races": [
+      "フェニックス"
+    ],
+    "image": "data/images/dm26rp1-052.jpg"
+  },
+  {
+    "id": "dm26rp1-SEC022",
+    "name": "アドベント・チャージャー",
+    "cost": 4,
+    "civilizations": [
+      "光"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-SEC022.jpg"
+  },
+  {
+    "id": "dm26rp1-SEC023",
+    "name": "プラスワン・ゲート",
+    "cost": 3,
+    "civilizations": [
+      "水"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-SEC023.jpg"
+  },
+  {
+    "id": "dm26rp1-SEC024",
+    "name": "コットピ・ルピア",
+    "cost": 2,
+    "civilizations": [
+      "火"
+    ],
+    "races": [
+      "ファイアー",
+      "バード",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-SEC024.jpg"
+  },
+  {
+    "id": "dm26rp1-T007",
+    "name": "月光電人オボロカゲロウ",
+    "cost": 2,
+    "civilizations": [
+      "水"
+    ],
+    "races": [
+      "グレートメカオー"
+    ],
+    "image": "data/images/dm26rp1-T007.jpg"
+  },
+  {
+    "id": "dm26rp1-T008",
+    "name": "ヤット・パウル",
+    "cost": 2,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [
+      "ファイアー",
+      "バード"
+    ],
+    "image": "data/images/dm26rp1-T008.jpg"
+  },
+  {
+    "id": "dm26rp1-T009",
+    "name": "悪魔の契約",
+    "cost": 2,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-T009.jpg"
+  },
+  {
+    "id": "dm26rp1-T010",
+    "name": "ポップ・ルビン",
+    "cost": 2,
+    "civilizations": [
+      "火"
+    ],
+    "races": [
+      "ファイアー",
+      "バード"
+    ],
+    "image": "data/images/dm26rp1-T010.jpg"
+  },
+  {
+    "id": "dm26rp1-053",
+    "name": "幸せの精霊ミルザム・キッド",
+    "cost": 3,
+    "civilizations": [
+      "光"
+    ],
+    "races": [
+      "エンジェル",
+      "コマンド"
+    ],
+    "image": "data/images/dm26rp1-053.jpg"
+  },
+  {
+    "id": "dm26rp1-054",
+    "name": "一神のI ガナストラ",
+    "cost": 1,
+    "civilizations": [
+      "光"
+    ],
+    "races": [
+      "ゴッド",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-054.jpg"
+  },
+  {
+    "id": "dm26rp1-055",
+    "name": "プラスワン・スパーク",
+    "cost": 5,
+    "civilizations": [
+      "光"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-055.jpg"
+  },
+  {
+    "id": "dm26rp1-056",
+    "name": "アドベント・チャージャー",
+    "cost": 4,
+    "civilizations": [
+      "光"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-056.jpg"
+  },
+  {
+    "id": "dm26rp1-057",
+    "name": "我竜塔第一層 セイント・キャッスル",
+    "cost": 1,
+    "civilizations": [
+      "光"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-057.jpg"
+  },
+  {
+    "id": "dm26rp1-058",
+    "name": "非神のN キキ",
+    "cost": 2,
+    "civilizations": [
+      "水"
+    ],
+    "races": [
+      "ゴッド",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-058.jpg"
+  },
+  {
+    "id": "dm26rp1-059",
+    "name": "漂流大陸の進撃",
+    "cost": 5,
+    "civilizations": [
+      "水"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-059.jpg"
+  },
+  {
+    "id": "dm26rp1-060",
+    "name": "ガルド・ブレイン",
+    "cost": 4,
+    "civilizations": [
+      "水"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-060.jpg"
+  },
+  {
+    "id": "dm26rp1-061",
+    "name": "プラスワン・ゲート",
+    "cost": 3,
+    "civilizations": [
+      "水"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-061.jpg"
+  },
+  {
+    "id": "dm26rp1-062",
+    "name": "我竜塔第五層 海底鬼面城",
+    "cost": 4,
+    "civilizations": [
+      "水"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-062.jpg"
+  },
+  {
+    "id": "dm26rp1-063",
+    "name": "腐食の炎 ボルメテウス・ザンジ",
+    "cost": 3,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [
+      "ミリオン",
+      "フレイム",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-063.jpg"
+  },
+  {
+    "id": "dm26rp1-064",
+    "name": "解体人形ジェガル",
+    "cost": 2,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [
+      "デスパペット"
+    ],
+    "image": "data/images/dm26rp1-064.jpg"
+  },
+  {
+    "id": "dm26rp1-065",
+    "name": "プラスワン・ハンド",
+    "cost": 5,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-065.jpg"
+  },
+  {
+    "id": "dm26rp1-066",
+    "name": "切り札の時!!",
+    "cost": 4,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-066.jpg"
+  },
+  {
+    "id": "dm26rp1-067",
+    "name": "我竜塔第四層 ポチョムキン",
+    "cost": 1,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-067.jpg"
+  },
+  {
+    "id": "dm26rp1-068",
+    "name": "襲撃者ガルゼドライブ",
+    "cost": 3,
+    "civilizations": [
+      "火"
+    ],
+    "races": [
+      "ドラゴノイド"
+    ],
+    "image": "data/images/dm26rp1-068.jpg"
+  },
+  {
+    "id": "dm26rp1-069",
+    "name": "コットピ・ルピア",
+    "cost": 2,
+    "civilizations": [
+      "火"
+    ],
+    "races": [
+      "ファイアー",
+      "バード",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-069.jpg"
+  },
+  {
+    "id": "dm26rp1-070",
+    "name": "プラスワン・フレーム",
+    "cost": 4,
+    "civilizations": [
+      "火"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-070.jpg"
+  },
+  {
+    "id": "dm26rp1-071",
+    "name": "逆転の時!!",
+    "cost": 2,
+    "civilizations": [
+      "火"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-071.jpg"
+  },
+  {
+    "id": "dm26rp1-072",
+    "name": "我竜塔第三層 超鯱城",
+    "cost": 2,
+    "civilizations": [
+      "火"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-072.jpg"
+  },
+  {
+    "id": "dm26rp1-073",
+    "name": "謎神のQ ギリメノアイル",
+    "cost": 5,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [
+      "ゴッド",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-073.jpg"
+  },
+  {
+    "id": "dm26rp1-074",
+    "name": "ノーガルディ・ネギオ＆ガルダンディ・ナスオ",
+    "cost": 2,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [
+      "ワイルド",
+      "ベジーズ"
+    ],
+    "image": "data/images/dm26rp1-074.jpg"
+  },
+  {
+    "id": "dm26rp1-075",
+    "name": "インビンシブル・タワー",
+    "cost": 13,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-075.jpg"
+  },
+  {
+    "id": "dm26rp1-076",
+    "name": "プラスワン・トラップ",
+    "cost": 4,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-076.jpg"
+  },
+  {
+    "id": "dm26rp1-077",
+    "name": "我竜塔第二層 ダルマンディ",
+    "cost": 3,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [],
+    "image": "data/images/dm26rp1-077.jpg"
+  },
+  {
+    "id": "dm26rp1-STD002",
+    "name": "サザンの天宝",
+    "cost": 2,
+    "civilizations": [
+      "光"
+    ],
+    "races": [
+      "エンジェル",
+      "コマンド",
+      "ドラゴン"
+    ],
+    "image": "data/images/dm26rp1-STD002.jpg"
+  },
+  {
+    "id": "dm26rp1-STDChoSEC002",
+    "name": "サザンの天宝",
+    "cost": 2,
+    "civilizations": [
+      "光"
+    ],
+    "races": [
+      "エンジェル",
+      "コマンド",
+      "ドラゴン"
+    ],
+    "image": "data/images/dm26rp1-STDChoSEC002.jpg"
+  },
+  {
+    "id": "dm26rp1-STDSEC002",
+    "name": "サザンの天宝",
+    "cost": 2,
+    "civilizations": [
+      "光"
+    ],
+    "races": [
+      "エンジェル",
+      "コマンド",
+      "ドラゴン"
+    ],
+    "image": "data/images/dm26rp1-STDSEC002.jpg"
+  },
+  {
+    "id": "dm26rp1-DM001",
+    "name": "切札竜 ボルメテウス・リバース・ドラゴン",
+    "cost": 5,
+    "civilizations": [
+      "水"
+    ],
+    "races": [
+      "エクスドリーマー",
+      "アーマード",
+      "ドラゴン",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-DM001.jpg"
+  },
+  {
+    "id": "dm26rp1-DM001SEC",
+    "name": "切札竜 ボルメテウス・リバース・ドラゴン",
+    "cost": 5,
+    "civilizations": [
+      "水"
+    ],
+    "races": [
+      "エクスドリーマー",
+      "アーマード",
+      "ドラゴン",
+      "超化獣"
+    ],
+    "image": "data/images/dm26rp1-DM001SEC.jpg"
+  },
+  {
+    "id": "dm26sd1-m001",
+    "name": "アビスベル＝覇＝ロード",
+    "cost": 7,
+    "civilizations": [
+      "闇",
+      "自然"
+    ],
+    "races": [
+      "アビスロイヤル"
+    ],
+    "image": "data/images/dm26sd1-m001.jpg"
+  },
+  {
+    "id": "dm26sd1-m001SEC",
+    "name": "アビスベル＝覇＝ロード",
+    "cost": 7,
+    "civilizations": [
+      "闇",
+      "自然"
+    ],
+    "races": [
+      "アビスロイヤル"
+    ],
+    "image": "data/images/dm26sd1-m001SEC.jpg"
+  },
+  {
+    "id": "dm26sd1-m001STAR",
+    "name": "アビスベル＝覇＝ロード",
+    "cost": 7,
+    "civilizations": [
+      "闇",
+      "自然"
+    ],
+    "races": [
+      "アビスロイヤル"
+    ],
+    "image": "data/images/dm26sd1-m001STAR.jpg"
+  },
+  {
+    "id": "dm26sd1-m003F",
+    "name": "邪闘 シス",
+    "cost": 6,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [
+      "アビスキマイラ"
+    ],
+    "image": "data/images/dm26sd1-m003F.jpg"
+  },
+  {
+    "id": "dm26sd1-m003SEC",
+    "name": "邪闘 シス",
+    "cost": 6,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [
+      "アビスキマイラ"
+    ],
+    "image": "data/images/dm26sd1-m003SEC.jpg"
+  },
+  {
+    "id": "dm26sd1-m004",
+    "name": "アビスベル=ジャシン帝",
+    "cost": 4,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [
+      "アビスロイヤル"
+    ],
+    "image": "data/images/dm26sd1-m004.jpg"
+  },
+  {
+    "id": "dm26sd1-s001",
+    "name": "聖カオスマントラ",
+    "cost": 7,
+    "civilizations": [
+      "光"
+    ],
+    "races": [
+      "メカ",
+      "デル",
+      "ステラ",
+      "シノビ"
+    ],
+    "image": "data/images/dm26sd1-s001.jpg"
+  },
+  {
+    "id": "dm26sd1-s001STAR",
+    "name": "聖カオスマントラ",
+    "cost": 7,
+    "civilizations": [
+      "光"
+    ],
+    "races": [
+      "メカ",
+      "デル",
+      "ステラ",
+      "シノビ"
+    ],
+    "image": "data/images/dm26sd1-s001STAR.jpg"
+  },
+  {
+    "id": "dm26sd1-i001",
+    "name": "芸魔王将 カクメイジン",
+    "cost": 7,
+    "civilizations": [
+      "水",
+      "火"
+    ],
+    "races": [
+      "マジック",
+      "ドラゴン",
+      "ゲーム",
+      "コマンド"
+    ],
+    "image": "data/images/dm26sd1-i001.jpg"
+  },
+  {
+    "id": "dm26sd1-i001STAR",
+    "name": "芸魔王将 カクメイジン",
+    "cost": 7,
+    "civilizations": [
+      "水",
+      "火"
+    ],
+    "races": [
+      "マジック",
+      "ドラゴン",
+      "ゲーム",
+      "コマンド"
+    ],
+    "image": "data/images/dm26sd1-i001STAR.jpg"
+  },
+  {
+    "id": "dm26sd1-g001",
+    "name": "竜皇神 ボルシャック・バクテラス",
+    "cost": 10,
+    "civilizations": [
+      "光",
+      "火"
+    ],
+    "races": [
+      "アーマード",
+      "ドラゴン"
+    ],
+    "image": "data/images/dm26sd1-g001.jpg"
+  },
+  {
+    "id": "dm26sd1-g001STAR",
+    "name": "竜皇神 ボルシャック・バクテラス",
+    "cost": 10,
+    "civilizations": [
+      "光",
+      "火"
+    ],
+    "races": [
+      "アーマード",
+      "ドラゴン"
+    ],
+    "image": "data/images/dm26sd1-g001STAR.jpg"
+  },
+  {
+    "id": "dm26sd1-a001",
+    "name": "ヨビニオン・マルル",
+    "cost": 4,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [
+      "スノーフェアリー"
+    ],
+    "image": "data/images/dm26sd1-a001.jpg"
+  },
+  {
+    "id": "dm26sd1-a001STAR",
+    "name": "ヨビニオン・マルル",
+    "cost": 4,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [
+      "スノーフェアリー"
+    ],
+    "image": "data/images/dm26sd1-a001STAR.jpg"
+  },
+  {
+    "id": "dm26sd1-a002F",
+    "name": "終末縫合王 ザ=キラー・キーナリー",
+    "cost": 10,
+    "civilizations": [
+      "水",
+      "闇",
+      "自然"
+    ],
+    "races": [
+      "ディスペクター",
+      "ジュラシック",
+      "コマンド",
+      "ドラゴン",
+      "ドラゴン",
+      "ゾンビ"
+    ],
+    "image": "data/images/dm26sd1-a002F.jpg"
+  },
+  {
+    "id": "dm26sd1-a004",
+    "name": "終末の監視者 ジ・ウォッチ",
+    "cost": 10,
+    "civilizations": [
+      "水"
+    ],
+    "races": [
+      "アウトレイジMAX"
+    ],
+    "image": "data/images/dm26sd1-a004.jpg"
+  },
+  {
+    "id": "dm26sd1-a005",
+    "name": "魔誕の斬将オルゲイト",
+    "cost": 7,
+    "civilizations": [
+      "水"
+    ],
+    "races": [
+      "デーモン",
+      "コマンド"
+    ],
+    "image": "data/images/dm26sd1-a005.jpg"
+  },
+  {
+    "id": "dm26sd1-a006",
+    "name": "絶望と反魂と滅殺の決断",
+    "cost": 5,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [],
+    "image": "data/images/dm26sd1-a006.jpg"
+  },
+  {
+    "id": "dm26sd1-a007",
+    "name": "流星のガイアッシュ・カイザー",
+    "cost": 6,
+    "civilizations": [
+      "水",
+      "自然"
+    ],
+    "races": [
+      "ブルー",
+      "コマンド",
+      "ドラゴン",
+      "グリーン",
+      "コマンド",
+      "ドラゴン",
+      "ハンター"
+    ],
+    "image": "data/images/dm26sd1-a007.jpg"
+  },
+  {
+    "id": "dm26sd1-h001",
+    "name": "流星のガイアッシュ・カイザー",
+    "cost": 6,
+    "civilizations": [
+      "水",
+      "自然"
+    ],
+    "races": [
+      "ブルー",
+      "コマンド",
+      "ドラゴン",
+      "グリーン",
+      "コマンド",
+      "ドラゴン",
+      "ハンター"
+    ],
+    "image": "data/images/dm26sd1-h001.jpg"
+  },
+  {
+    "id": "dm26sd1-h001SEC",
+    "name": "流星のガイアッシュ・カイザー",
+    "cost": 6,
+    "civilizations": [
+      "水",
+      "自然"
+    ],
+    "races": [
+      "ブルー",
+      "コマンド",
+      "ドラゴン",
+      "グリーン",
+      "コマンド",
+      "ドラゴン",
+      "ハンター"
+    ],
+    "image": "data/images/dm26sd1-h001SEC.jpg"
+  },
+  {
+    "id": "dm26sd1-h001STAR",
+    "name": "流星のガイアッシュ・カイザー",
+    "cost": 6,
+    "civilizations": [
+      "水",
+      "自然"
+    ],
+    "races": [
+      "ブルー",
+      "コマンド",
+      "ドラゴン",
+      "グリーン",
+      "コマンド",
+      "ドラゴン",
+      "ハンター"
+    ],
+    "image": "data/images/dm26sd1-h001STAR.jpg"
+  },
+  {
+    "id": "dm26sd1-h002",
+    "name": "ボルシャック・ドリーム・ドラゴン",
+    "cost": 7,
+    "civilizations": [
+      "光",
+      "火",
+      "自然"
+    ],
+    "races": [
+      "アーマード",
+      "ドラゴン"
+    ],
+    "image": "data/images/dm26sd1-h002.jpg"
+  },
+  {
+    "id": "dm26sd1-h002F",
+    "name": "ボルシャック・ドリーム・ドラゴン",
+    "cost": 7,
+    "civilizations": [
+      "光",
+      "火",
+      "自然"
+    ],
+    "races": [
+      "アーマード",
+      "ドラゴン"
+    ],
+    "image": "data/images/dm26sd1-h002F.jpg"
+  },
+  {
+    "id": "dm26sd1-h002SECA",
+    "name": "ボルシャック・ドリーム・ドラゴン",
+    "cost": 7,
+    "civilizations": [
+      "光",
+      "火",
+      "自然"
+    ],
+    "races": [
+      "アーマード",
+      "ドラゴン"
+    ],
+    "image": "data/images/dm26sd1-h002SECA.jpg"
+  },
+  {
+    "id": "dm26sd1-h002SECB",
+    "name": "ボルシャック・ドリーム・ドラゴン",
+    "cost": 7,
+    "civilizations": [
+      "光",
+      "火",
+      "自然"
+    ],
+    "races": [
+      "アーマード",
+      "ドラゴン"
+    ],
+    "image": "data/images/dm26sd1-h002SECB.jpg"
+  },
+  {
+    "id": "dm26sd1-h007",
+    "name": "地封龍 ギャイア",
+    "cost": 9,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [
+      "ガイア",
+      "コマンド",
+      "ドラゴン",
+      "暴拳王国"
+    ],
+    "image": "data/images/dm26sd1-h007.jpg"
+  },
+  {
+    "id": "dm26sd1-h008",
+    "name": "音卿の精霊龍 ラフルル・ラブ / 「未来から来る、だからミラクル」",
+    "cost": 7,
+    "civilizations": [
+      "光",
+      "水"
+    ],
+    "races": [
+      "エンジェル",
+      "コマンド",
+      "ドラゴン",
+      "ドレミ団",
+      "革命軍"
+    ],
+    "image": "data/images/dm26sd1-h008.jpg"
+  },
+  {
+    "id": "dm26sd1-c001",
+    "name": "一王二命三眼槍",
+    "cost": 5,
+    "civilizations": [
+      "闇",
+      "火"
+    ],
+    "races": [
+      "デモニオ",
+      "鬼札王国"
+    ],
+    "image": "data/images/dm26sd1-c001.jpg"
+  },
+  {
+    "id": "dm26sd1-c001STAR",
+    "name": "一王二命三眼槍",
+    "cost": 5,
+    "civilizations": [
+      "闇",
+      "火"
+    ],
+    "races": [
+      "デモニオ",
+      "鬼札王国"
+    ],
+    "image": "data/images/dm26sd1-c001STAR.jpg"
+  },
+  {
+    "id": "dm26sd1-c002F",
+    "name": "龍素記号ｗD サイクルペディア",
+    "cost": 5,
+    "civilizations": [
+      "水",
+      "闇"
+    ],
+    "races": [
+      "クリスタル",
+      "コマンド",
+      "ドラゴン",
+      "ダークロード"
+    ],
+    "image": "data/images/dm26sd1-c002F.jpg"
+  },
+  {
+    "id": "dm26sd1-c007",
+    "name": "音卿の精霊龍 ラフルル・ラブ / 「未来から来る、だからミラクル」",
+    "cost": 7,
+    "civilizations": [
+      "光",
+      "水"
+    ],
+    "races": [
+      "エンジェル",
+      "コマンド",
+      "ドラゴン",
+      "ドレミ団",
+      "革命軍"
+    ],
+    "image": "data/images/dm26sd1-c007.jpg"
+  },
+  {
+    "id": "dm26sd1-e001",
+    "name": "水晶の王 ゴスペル",
+    "cost": 9,
+    "civilizations": [
+      "光",
+      "水"
+    ],
+    "races": [
+      "オラクル",
+      "セレス",
+      "キング",
+      "コマンド",
+      "ドラゴン",
+      "アンノウン"
+    ],
+    "image": "data/images/dm26sd1-e001.jpg"
+  },
+  {
+    "id": "dm26sd1-e001STAR",
+    "name": "水晶の王 ゴスペル",
+    "cost": 9,
+    "civilizations": [
+      "光",
+      "水"
+    ],
+    "races": [
+      "オラクル",
+      "セレス",
+      "キング",
+      "コマンド",
+      "ドラゴン",
+      "アンノウン"
+    ],
+    "image": "data/images/dm26sd1-e001STAR.jpg"
+  },
+  {
+    "id": "dm26sd1-e002F",
+    "name": "月下卍壊 ガ・リュミーズ 卍",
+    "cost": 99,
+    "civilizations": [
+      "水"
+    ],
+    "races": [
+      "ドルスザク"
+    ],
+    "image": "data/images/dm26sd1-e002F.jpg"
+  },
+  {
+    "id": "dm26sd1-e004",
+    "name": "音卿の精霊龍 ラフルル・ラブ / 「未来から来る、だからミラクル」",
+    "cost": 7,
+    "civilizations": [
+      "光",
+      "水"
+    ],
+    "races": [
+      "エンジェル",
+      "コマンド",
+      "ドラゴン",
+      "ドレミ団",
+      "革命軍"
+    ],
+    "image": "data/images/dm26sd1-e004.jpg"
+  },
+  {
+    "id": "dm26sd1-m005",
+    "name": "深淵の壊炉 マーダン=ロウ",
+    "cost": 4,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [
+      "アビスロイヤル"
+    ],
+    "image": "data/images/dm26sd1-m005.jpg"
+  },
+  {
+    "id": "dm26sd1-m006",
+    "name": "絶望と反魂と滅殺の決断",
+    "cost": 5,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [],
+    "image": "data/images/dm26sd1-m006.jpg"
+  },
+  {
+    "id": "dm26sd1-m007",
+    "name": "ア:エヌ:マクア",
+    "cost": 5,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [
+      "ヴェールアビス"
+    ],
+    "image": "data/images/dm26sd1-m007.jpg"
+  },
+  {
+    "id": "dm26sd1-q001",
+    "name": "超重竜 ゴルファンタジスタ",
+    "cost": 7,
+    "civilizations": [
+      "水",
+      "自然"
+    ],
+    "races": [
+      "ジャイアント",
+      "ドラゴン"
+    ],
+    "image": "data/images/dm26sd1-q001.jpg"
+  },
+  {
+    "id": "dm26sd1-q001STAR",
+    "name": "超重竜 ゴルファンタジスタ",
+    "cost": 7,
+    "civilizations": [
+      "水",
+      "自然"
+    ],
+    "races": [
+      "ジャイアント",
+      "ドラゴン"
+    ],
+    "image": "data/images/dm26sd1-q001STAR.jpg"
+  },
+  {
+    "id": "dm26sd1-q002F",
+    "name": "チアスカーレット アカネ",
+    "cost": 5,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [
+      "ジャイアント",
+      "スノーフェアリー"
+    ],
+    "image": "data/images/dm26sd1-q002F.jpg"
+  },
+  {
+    "id": "dm26sd1-q003",
+    "name": "五番龍 レイクポーチャー ParZero",
+    "cost": 5,
+    "civilizations": [
+      "水"
+    ],
+    "races": [
+      "ジャイアント",
+      "ドラゴン"
+    ],
+    "image": "data/images/dm26sd1-q003.jpg"
+  },
+  {
+    "id": "dm26sd1-q004",
+    "name": "超球の超人 / 父なるタッチダウン",
+    "cost": 8,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [
+      "ジャイアント"
+    ],
+    "image": "data/images/dm26sd1-q004.jpg"
+  },
+  {
+    "id": "dm26sd1-l007",
+    "name": "流星のガイアッシュ・カイザー",
+    "cost": 6,
+    "civilizations": [
+      "水",
+      "自然"
+    ],
+    "races": [
+      "ブルー",
+      "コマンド",
+      "ドラゴン",
+      "グリーン",
+      "コマンド",
+      "ドラゴン",
+      "ハンター"
+    ],
+    "image": "data/images/dm26sd1-l007.jpg"
+  },
+  {
+    "id": "dm26sd1-n001",
+    "name": "ジョギラゴン＆ジョニー ～Jの旅路～",
+    "cost": 8,
+    "civilizations": [
+      "ゼロ"
+    ],
+    "races": [
+      "ジョーカーズ",
+      "ドラゴン"
+    ],
+    "image": "data/images/dm26sd1-n001.jpg"
+  },
+  {
+    "id": "dm26sd1-n001SEC",
+    "name": "ジョギラゴン＆ジョニー ～Jの旅路～",
+    "cost": 8,
+    "civilizations": [
+      "ゼロ"
+    ],
+    "races": [
+      "ジョーカーズ",
+      "ドラゴン"
+    ],
+    "image": "data/images/dm26sd1-n001SEC.jpg"
+  },
+  {
+    "id": "dm26sd1-n001STAR",
+    "name": "ジョギラゴン＆ジョニー ～Jの旅路～",
+    "cost": 8,
+    "civilizations": [
+      "ゼロ"
+    ],
+    "races": [
+      "ジョーカーズ",
+      "ドラゴン"
+    ],
+    "image": "data/images/dm26sd1-n001STAR.jpg"
+  },
+  {
+    "id": "dm26sd1-n002",
+    "name": "MMM-ジョーキング",
+    "cost": 5,
+    "civilizations": [
+      "光",
+      "自然"
+    ],
+    "races": [
+      "ジョーカーズ",
+      "ドラゴン",
+      "レクスターズ"
+    ],
+    "image": "data/images/dm26sd1-n002.jpg"
+  },
+  {
+    "id": "dm26sd1-n002F",
+    "name": "MMM-ジョーキング",
+    "cost": 5,
+    "civilizations": [
+      "光",
+      "自然"
+    ],
+    "races": [
+      "ジョーカーズ",
+      "ドラゴン",
+      "レクスターズ"
+    ],
+    "image": "data/images/dm26sd1-n002F.jpg"
+  },
+  {
+    "id": "dm26sd1-n002SEC",
+    "name": "MMM-ジョーキング",
+    "cost": 5,
+    "civilizations": [
+      "光",
+      "自然"
+    ],
+    "races": [
+      "ジョーカーズ",
+      "ドラゴン",
+      "レクスターズ"
+    ],
+    "image": "data/images/dm26sd1-n002SEC.jpg"
+  },
+  {
+    "id": "dm26sd1-n004",
+    "name": "閃光の精霊カンビアーレ",
+    "cost": 8,
+    "civilizations": [
+      "光"
+    ],
+    "races": [
+      "エンジェル",
+      "コマンド"
+    ],
+    "image": "data/images/dm26sd1-n004.jpg"
+  },
+  {
+    "id": "dm26sd1-n005",
+    "name": "王道の革命 ドギラゴン",
+    "cost": 5,
+    "civilizations": [
+      "光",
+      "火",
+      "自然"
+    ],
+    "races": [
+      "メガ",
+      "コマンド",
+      "ドラゴン",
+      "革命軍"
+    ],
+    "image": "data/images/dm26sd1-n005.jpg"
+  },
+  {
+    "id": "dm26sd1-p001",
+    "name": "天風のゲイル・ヴェスパー",
+    "cost": 10,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [
+      "グランセクト"
+    ],
+    "image": "data/images/dm26sd1-p001.jpg"
+  },
+  {
+    "id": "dm26sd1-p001STAR",
+    "name": "天風のゲイル・ヴェスパー",
+    "cost": 10,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [
+      "グランセクト"
+    ],
+    "image": "data/images/dm26sd1-p001STAR.jpg"
+  },
+  {
+    "id": "dm26sd1-p002F",
+    "name": "水上第九院 シャコガイル",
+    "cost": 9,
+    "civilizations": [
+      "水"
+    ],
+    "races": [
+      "ムートピア"
+    ],
+    "image": "data/images/dm26sd1-p002F.jpg"
+  },
+  {
+    "id": "dm26sd1-p003",
+    "name": "ジーク・ナハトファルター",
+    "cost": 11,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [
+      "グランセクト"
+    ],
+    "image": "data/images/dm26sd1-p003.jpg"
+  },
+  {
+    "id": "dm26sd1-p004",
+    "name": "ナ・チュラルゴ・デンジャー / ナチュラル・トラップ",
+    "cost": 7,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [
+      "グランセクト",
+      "ジャイアント"
+    ],
+    "image": "data/images/dm26sd1-p004.jpg"
+  },
+  {
+    "id": "dm26sd1-p005",
+    "name": "環嵐！ホールインワン・ヘラクレス",
+    "cost": 4,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [
+      "ジャイアント",
+      "インセクト",
+      "ACE"
+    ],
+    "image": "data/images/dm26sd1-p005.jpg"
+  },
+  {
+    "id": "dm26sd1-r002",
+    "name": "ヴァルキリアス・武者・ムサシ「弐天」",
+    "cost": 5,
+    "civilizations": [
+      "光",
+      "火"
+    ],
+    "races": [
+      "アーマード",
+      "ドラゴン",
+      "アーマード",
+      "サムライ"
+    ],
+    "image": "data/images/dm26sd1-r002.jpg"
+  },
+  {
+    "id": "dm26sd1-r002F",
+    "name": "ヴァルキリアス・武者・ムサシ「弐天」",
+    "cost": 5,
+    "civilizations": [
+      "光",
+      "火"
+    ],
+    "races": [
+      "アーマード",
+      "ドラゴン",
+      "アーマード",
+      "サムライ"
+    ],
+    "image": "data/images/dm26sd1-r002F.jpg"
+  },
+  {
+    "id": "dm26sd1-r002SEC",
+    "name": "ヴァルキリアス・武者・ムサシ「弐天」",
+    "cost": 5,
+    "civilizations": [
+      "光",
+      "火"
+    ],
+    "races": [
+      "アーマード",
+      "ドラゴン",
+      "アーマード",
+      "サムライ"
+    ],
+    "image": "data/images/dm26sd1-r002SEC.jpg"
+  },
+  {
+    "id": "dm26sd1-r005",
+    "name": "音卿の精霊龍 ラフルル・ラブ / 「未来から来る、だからミラクル」",
+    "cost": 7,
+    "civilizations": [
+      "光",
+      "水"
+    ],
+    "races": [
+      "エンジェル",
+      "コマンド",
+      "ドラゴン",
+      "ドレミ団",
+      "革命軍"
+    ],
+    "image": "data/images/dm26sd1-r005.jpg"
+  },
+  {
+    "id": "dm26sd1-u001",
+    "name": "五輪の求道者 清永",
+    "cost": 6,
+    "civilizations": [
+      "光",
+      "水",
+      "自然"
+    ],
+    "races": [
+      "ドリームメイト",
+      "サムライ",
+      "ウィザード"
+    ],
+    "image": "data/images/dm26sd1-u001.jpg"
+  },
+  {
+    "id": "dm26sd1-u001STAR",
+    "name": "五輪の求道者 清永",
+    "cost": 6,
+    "civilizations": [
+      "光",
+      "水",
+      "自然"
+    ],
+    "races": [
+      "ドリームメイト",
+      "サムライ",
+      "ウィザード"
+    ],
+    "image": "data/images/dm26sd1-u001STAR.jpg"
+  },
+  {
+    "id": "dm26sd1-u003",
+    "name": "ナ・チュラルゴ・デンジャー / ナチュラル・トラップ",
+    "cost": 7,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [
+      "グランセクト",
+      "ジャイアント"
+    ],
+    "image": "data/images/dm26sd1-u003.jpg"
+  },
+  {
+    "id": "dm26sd1-u004",
+    "name": "音卿の精霊龍 ラフルル・ラブ / 「未来から来る、だからミラクル」",
+    "cost": 7,
+    "civilizations": [
+      "光",
+      "水"
+    ],
+    "races": [
+      "エンジェル",
+      "コマンド",
+      "ドラゴン",
+      "ドレミ団",
+      "革命軍"
+    ],
+    "image": "data/images/dm26sd1-u004.jpg"
+  },
+  {
+    "id": "dm26sd1-u005",
+    "name": "アカシック・ゼノン",
+    "cost": 5,
+    "civilizations": [
+      "水",
+      "火",
+      "自然"
+    ],
+    "races": [
+      "サイバーロード",
+      "ジ",
+      "アンサー"
+    ],
+    "image": "data/images/dm26sd1-u005.jpg"
+  },
+  {
+    "id": "dm26sd1-v002F",
+    "name": "弾丸超邪 クロスファイア",
+    "cost": 7,
+    "civilizations": [
+      "火"
+    ],
+    "races": [
+      "マジック",
+      "アウトレイジMAX"
+    ],
+    "image": "data/images/dm26sd1-v002F.jpg"
+  },
+  {
+    "id": "dm26sd1-w001",
+    "name": "禁断の轟速 ブラックゾーン",
+    "cost": 7,
+    "civilizations": [
+      "闇",
+      "火"
+    ],
+    "races": [
+      "ソニック",
+      "コマンド",
+      "S級侵略者"
+    ],
+    "image": "data/images/dm26sd1-w001.jpg"
+  },
+  {
+    "id": "dm26sd1-w001STAR",
+    "name": "禁断の轟速 ブラックゾーン",
+    "cost": 7,
+    "civilizations": [
+      "闇",
+      "火"
+    ],
+    "races": [
+      "ソニック",
+      "コマンド",
+      "S級侵略者"
+    ],
+    "image": "data/images/dm26sd1-w001STAR.jpg"
+  },
+  {
+    "id": "dm26sd1-w003",
+    "name": "覇帝なき侵略 レッドゾーンF",
+    "cost": 6,
+    "civilizations": [
+      "火"
+    ],
+    "races": [
+      "ソニック",
+      "コマンド",
+      "侵略者"
+    ],
+    "image": "data/images/dm26sd1-w003.jpg"
+  },
+  {
+    "id": "dm26sd1-w004",
+    "name": "超次元の王家",
+    "cost": 4,
+    "civilizations": [
+      "水",
+      "火"
+    ],
+    "races": [
+      "エイリアン",
+      "ハンター",
+      "キング",
+      "コマンド"
+    ],
+    "image": "data/images/dm26sd1-w004.jpg"
+  },
+  {
+    "id": "dm26sd1-g002F",
+    "name": "超竜ヴァルキリアス",
+    "cost": 9,
+    "civilizations": [
+      "火"
+    ],
+    "races": [
+      "アーマード",
+      "ドラゴン"
+    ],
+    "image": "data/images/dm26sd1-g002F.jpg"
+  },
+  {
+    "id": "dm26sd1-g003",
+    "name": "ボルシャック・ヴォルジャアク",
+    "cost": 7,
+    "civilizations": [
+      "光",
+      "火"
+    ],
+    "races": [
+      "アーマード",
+      "ドラゴン"
+    ],
+    "image": "data/images/dm26sd1-g003.jpg"
+  },
+  {
+    "id": "dm26sd1-g004",
+    "name": "輝く革命 ボルシャック・フレア",
+    "cost": 7,
+    "civilizations": [
+      "光",
+      "火"
+    ],
+    "races": [
+      "アーマード",
+      "ドラゴン"
+    ],
+    "image": "data/images/dm26sd1-g004.jpg"
+  },
+  {
+    "id": "dm26sd1-o001",
+    "name": "「正義星帝」 <ライオネル.Star>",
+    "cost": 5,
+    "civilizations": [
+      "光"
+    ],
+    "races": [
+      "メタリカ",
+      "エンジェル",
+      "コマンド",
+      "レクスターズ"
+    ],
+    "image": "data/images/dm26sd1-o001.jpg"
+  },
+  {
+    "id": "dm26sd1-o001STAR",
+    "name": "「正義星帝」 <ライオネル.Star>",
+    "cost": 5,
+    "civilizations": [
+      "光"
+    ],
+    "races": [
+      "メタリカ",
+      "エンジェル",
+      "コマンド",
+      "レクスターズ"
+    ],
+    "image": "data/images/dm26sd1-o001STAR.jpg"
+  },
+  {
+    "id": "dm26sd1-o004",
+    "name": "理想と平和の決断",
+    "cost": 4,
+    "civilizations": [
+      "光",
+      "水"
+    ],
+    "races": [],
+    "image": "data/images/dm26sd1-o004.jpg"
+  },
+  {
+    "id": "dm26sd1-y002F",
+    "name": "地封龍 ギャイア",
+    "cost": 9,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [
+      "ガイア",
+      "コマンド",
+      "ドラゴン",
+      "暴拳王国"
+    ],
+    "image": "data/images/dm26sd1-y002F.jpg"
+  },
+  {
+    "id": "dm26sd1-k002F",
+    "name": "轟く革命 レッドギラゾーン",
+    "cost": 7,
+    "civilizations": [
+      "水",
+      "火",
+      "自然"
+    ],
+    "races": [
+      "ソニック",
+      "コマンド",
+      "ドラゴン",
+      "革命軍"
+    ],
+    "image": "data/images/dm26sd1-k002F.jpg"
+  },
+  {
+    "id": "dm26sd1-k004",
+    "name": "熱き侵略 レッドゾーンZ",
+    "cost": 6,
+    "civilizations": [
+      "火"
+    ],
+    "races": [
+      "ソニック",
+      "コマンド",
+      "侵略者"
+    ],
+    "image": "data/images/dm26sd1-k004.jpg"
+  },
+  {
+    "id": "dm26sd1-a008",
+    "name": "九番龍 ジゴクバンカー Par459",
+    "cost": 12,
+    "civilizations": [
+      "自然"
+    ],
+    "races": [
+      "ジャイアント",
+      "ドラゴン"
+    ],
+    "image": "data/images/dm26sd1-a008.jpg"
+  },
+  {
+    "id": "dm26sd1-a009",
+    "name": "修羅の死神フミシュナ / 「この先は修羅の道ぞ」",
+    "cost": 4,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [
+      "デーモン",
+      "コマンド"
+    ],
+    "image": "data/images/dm26sd1-a009.jpg"
+  },
+  {
+    "id": "dm26sd1-c008",
+    "name": "♪立ち上がる 悪魔に天使 堕ちるかな",
+    "cost": 4,
+    "civilizations": [
+      "水"
+    ],
+    "races": [
+      "マジック",
+      "ソング"
+    ],
+    "image": "data/images/dm26sd1-c008.jpg"
+  },
+  {
+    "id": "dm26sd1-c009",
+    "name": "深淵の逆転撃",
+    "cost": 4,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [],
+    "image": "data/images/dm26sd1-c009.jpg"
+  },
+  {
+    "id": "dm26sd1-e005",
+    "name": "氷柱と炎弧の決断",
+    "cost": 3,
+    "civilizations": [
+      "水",
+      "火"
+    ],
+    "races": [],
+    "image": "data/images/dm26sd1-e005.jpg"
+  },
+  {
+    "id": "dm26sd1-e006",
+    "name": "エンドレス・フローズン・カーニバル",
+    "cost": 15,
+    "civilizations": [
+      "光",
+      "水",
+      "自然"
+    ],
+    "races": [],
+    "image": "data/images/dm26sd1-e006.jpg"
+  },
+  {
+    "id": "dm26sd1-m008",
+    "name": "謀遠 テレスコ=テレス",
+    "cost": 5,
+    "civilizations": [
+      "闇"
+    ],
+    "races": [
+      "アビスロイヤル"
+    ],
+    "image": "data/images/dm26sd1-m008.jpg"
+  },
+  {
+    "id": "dm26sd1-q008",
+    "name": "チアスペース アカネ",
+    "cost": 5,
+    "civilizations": [
+      "水",
+      "自然"
+    ],
+    "races": [
+      "ジャイアント",
+      "スノーフェアリー"
+    ],
+    "image": "data/images/dm26sd1-q008.jpg"
+  },
+  {
+    "id": "dm26sd1-s007",
+    "name": "ドラン・ゴル・ゲルス / 豪龍の記憶",
+    "cost": 5,
+    "civilizations": [
+      "光",
+      "闇"
+    ],
+    "races": [
+      "メカ",
+      "エンジェル",
+      "コマンド"
+    ],
+    "image": "data/images/dm26sd1-s007.jpg"
+  },
+  {
+    "id": "dm26sd1-b005",
+    "name": "魔誕と光喜と楽識と炎怒と哀樹の決断",
+    "cost": 5,
+    "civilizations": [
+      "光",
+      "水",
+      "闇",
+      "火",
+      "自然"
+    ],
+    "races": [],
+    "image": "data/images/dm26sd1-b005.jpg"
+  },
+  {
+    "id": "dm26sd1-d006",
+    "name": "卍 新世壊 卍",
+    "cost": 2,
+    "civilizations": [
+      "水"
+    ],
+    "races": [],
+    "image": "data/images/dm26sd1-d006.jpg"
+  },
+  {
+    "id": "dm26sd1-i003",
+    "name": "♪立ち上がる 悪魔に天使 堕ちるかな",
+    "cost": 4,
+    "civilizations": [
+      "水"
+    ],
+    "races": [
+      "マジック",
+      "ソング"
+    ],
+    "image": "data/images/dm26sd1-i003.jpg"
+  }
+]

@@ -380,6 +380,27 @@ function resetFilter() {
   applyFilter();
 }
 
+function showMobileTab(tab) {
+  // ナビボタンのアクティブ状態を更新
+  document.querySelectorAll(".mobile-nav-btn").forEach(btn => btn.classList.remove("active"));
+  event.currentTarget.classList.add("active");
+
+  // フィルターパネルとリストパネルを閉じる
+  document.getElementById("mobileFilterPanel").classList.remove("open");
+
+  if (tab === "filter") {
+    document.getElementById("mobileFilterPanel").classList.add("open");
+  } else if (tab === "lists") {
+    document.getElementById("mobileFilterPanel").classList.add("open");
+    // リストパネルとして流用（中身をリスト表示に切り替え）
+    document.querySelector(".mobile-panel-body").innerHTML = `
+      <div id="listSelector"></div>
+    `;
+    renderListSelector();
+  }
+  // tab === "list" の場合は一覧に戻るだけ（パネルは閉じる）
+}
+
 function toggleMobileFilter() {
   document.getElementById("mobileFilterPanel").classList.toggle("open");
 }

@@ -8,22 +8,20 @@
 </head>
 <body>
 
+<!-- ===== ヘッダー ===== -->
 <header>
   <h1>デュエマ 所持管理</h1>
   <span id="totalCount">読み込み中…</span>
 </header>
 
+<!-- ===== PC版レイアウト ===== -->
 <div class="container">
 
-  <!-- ===== フィルター ===== -->
+  <!-- 左：検索フィルター -->
   <aside class="filters">
-
-    <!-- リスト切り替え -->
     <h3>📁 リスト</h3>
     <div id="listSelector"></div>
-
     <hr style="border-color:#2e3350;margin:14px 0">
-
     <h3>🔍 絞り込み</h3>
 
     <div class="filter-block">
@@ -55,7 +53,6 @@
     </div>
 
     <div class="filter-block">
-      <label class="filter-label">表示</label>
       <label class="toggle-label">
         <input type="checkbox" id="ownedOnly"> 所持カードのみ
       </label>
@@ -63,11 +60,10 @@
 
     <button class="btn-search" onclick="applyFilter()">検索</button>
     <button class="btn-reset"  onclick="resetFilter()">リセット</button>
-
     <div class="stats-box" id="statsBox"></div>
   </aside>
 
-  <!-- ===== カード一覧 ===== -->
+  <!-- 中央：カード一覧 -->
   <main class="list">
     <div class="list-header">
       <span id="resultCount">0 件</span>
@@ -90,14 +86,75 @@
     </table>
   </main>
 
-  <!-- ===== 詳細パネル ===== -->
+  <!-- 右：詳細パネル -->
   <aside class="detail" id="detail">
     <div class="detail-placeholder">← カードを選択してください</div>
   </aside>
 
 </div>
 
-<!-- Supabase SDK -->
+<!-- ===== スマホ版ボトムナビ ===== -->
+<nav class="mobile-nav">
+  <button class="mobile-nav-btn active" onclick="showMobileTab('list')">
+    <span>☰</span><span>一覧</span>
+  </button>
+  <button class="mobile-nav-btn" onclick="showMobileTab('filter')">
+    <span>🔍</span><span>検索</span>
+  </button>
+  <button class="mobile-nav-btn" onclick="showMobileTab('lists')">
+    <span>📁</span><span>リスト</span>
+  </button>
+</nav>
+
+<!-- ===== スマホ版フィルターパネル ===== -->
+<div id="mobileFilterPanel" class="mobile-panel">
+  <div class="mobile-panel-header">
+    <span>🔍 絞り込み</span>
+    <button onclick="closeMobileFilter()">✕</button>
+  </div>
+  <div class="mobile-panel-body">
+    <div class="filter-block">
+      <label class="filter-label">文明</label>
+      <div style="display:flex;gap:6px;flex-wrap:wrap;">
+        <label class="civ-chip fire">  <input type="checkbox" value="火"  class="civ"> 火</label>
+        <label class="civ-chip water"> <input type="checkbox" value="水"  class="civ"> 水</label>
+        <label class="civ-chip nature"><input type="checkbox" value="自然" class="civ"> 自然</label>
+        <label class="civ-chip light"> <input type="checkbox" value="光"  class="civ"> 光</label>
+        <label class="civ-chip dark">  <input type="checkbox" value="闇"  class="civ"> 闇</label>
+      </div>
+    </div>
+    <div class="filter-block">
+      <label class="filter-label">カード名</label>
+      <input type="text" id="nameSearch" placeholder="例: ボルシャック">
+    </div>
+    <div class="filter-block">
+      <label class="filter-label">種族</label>
+      <input type="text" id="raceSearch" placeholder="例: ドラゴン">
+    </div>
+    <div class="filter-block">
+      <label class="filter-label">コスト (最大)</label>
+      <input type="range" id="costMax" min="1" max="20" value="20"
+             oninput="document.getElementById('costVal').textContent=this.value">
+      <span id="costVal">20</span>
+    </div>
+    <div class="filter-block">
+      <label class="toggle-label">
+        <input type="checkbox" id="ownedOnly"> 所持カードのみ
+      </label>
+    </div>
+    <button class="btn-search" onclick="applyFilter();closeMobileFilter()">検索</button>
+    <button class="btn-reset"  onclick="resetFilter()">リセット</button>
+  </div>
+</div>
+
+<!-- ===== スマホ版カード詳細モーダル ===== -->
+<div id="mobileModal" class="mobile-modal">
+  <div class="mobile-modal-content">
+    <button class="mobile-modal-close" onclick="closeMobileModal()">✕ 閉じる</button>
+    <div id="mobileModalContent"></div>
+  </div>
+</div>
+
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="app.js"></script>
 </body>

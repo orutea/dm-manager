@@ -138,28 +138,31 @@ async function saveCollection(id) {
 
 async function saveList(name) {
 
-  const res = await db.from("lists").upsert({
-    name,
+  const payload = {
+    name: name,
     card_ids: lists[name] || []
-  });
-
-  console.log("saveList:", res);
-}
-
-async function saveDeck(name) {
-
-  const d = decks[name] || {
-    memo: "",
-    cards: {}
   };
 
-  const res = await db.from("decks").upsert({
-    name,
-    memo: d.memo,
-    cards: d.cards
-  });
+  console.log("saveList payload:", payload);
 
-  console.log("saveDeck:", res);
+  const { data, error } = await db
+    .from("lists")
+    .upsert(payload)
+    .select();
+
+  if (error) {
+
+    console.error("saveList error:", error);
+
+    alert(
+      "lists保存失敗:\n" +
+      error.message
+    );
+
+    return;
+  }
+
+  console.log("saveList success:", data);
 }
 
 // ================================================================

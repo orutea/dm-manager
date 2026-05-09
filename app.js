@@ -3,8 +3,8 @@
    ==================================================== */
 
 // ★ここを自分のSupabaseの情報に書き換えてください
-const SUPABASE_URL = "https://ckbzdrngzpcjufzowvsl.supabase.co";
-const SUPABASE_KEY = "sb_publishable_FtT7aDlhc7HlRc_0KgE-ug_0i2bVrZr";
+const SUPABASE_URL = "https://ここにProject_URLを貼り付ける";
+const SUPABASE_KEY = "ここにanon_public_keyを貼り付ける";
 
 const { createClient } = supabase;
 const db = createClient(SUPABASE_URL, SUPABASE_KEY);
@@ -700,3 +700,5 @@ function escAttr(str) {
 document.getElementById("mobileModal").addEventListener("click", function(e) {
   if (e.target === this) closeMobileModal();
 });
+
+init();

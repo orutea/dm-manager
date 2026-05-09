@@ -143,20 +143,28 @@ async function saveCollection(id) {
     count: d.count,
     memo: d.memo
   });
-}
 
+}
 async function saveList(name) {
-  await db.from("lists").upsert({
+  const res = await db.from("lists").upsert({
     name,
     card_ids: lists[name] || []
   });
-}
 
+  console.log("saveList:", res);
+
+}
 async function saveDeck(name) {
-  const d = decks[name] || {
-    memo: "",
-    cards: {}
-  };
+  const d = decks[name] || { memo: "", cards: {} };
+
+  const res = await db.from("decks").upsert({
+    name,
+    memo: d.memo,
+    cards: d.cards
+  });
+
+  console.log("saveDeck:", res);
+}
 
   await db.from("decks").upsert({
     name,

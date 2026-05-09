@@ -3,7 +3,7 @@
    ==================================================== */
 
 // ★ここを自分のSupabaseの情報に書き換えてください
-const SUPABASE_URL = "https://ckbzdrngzpcjufzowvsl.supabase.co/rest/v1/";
+const SUPABASE_URL = "https://ckbzdrngzpcjufzowvsl.supabase.co";
 const SUPABASE_KEY = "sb_publishable_FtT7aDlhc7HlRc_0KgE-ug_0i2bVrZr";
 
 const { createClient } = supabase;

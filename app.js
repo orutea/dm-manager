@@ -10,16 +10,21 @@ const { createClient } = supabase;
 const db = createClient(SUPABASE_URL, SUPABASE_KEY);
 
 let cards      = [];
-let collection = {};  // { id: { count, memo } }
-let lists      = {};  // { name: [id, ...] }
-let decks      = {};  // { name: { memo, cards: { id: count } } }
+let collection = {};
+let lists      = {};
+let decks      = {};
 
 let currentCard = null;
 let currentList = null;
 let currentDeck = null;
-let activeTab   = "collection"; // "collection" | "deck"
+let activeTab   = "collection";
 
 const modeState = { nameMode: "OR", raceMode: "OR", memoMode: "OR" };
+
+// ページング
+const PAGE_SIZE    = 50;
+let   currentPage  = 1;
+let   filteredCards = [];
 
 // ================================================================
 // 起動
@@ -31,9 +36,9 @@ async function init() {
     db.from("decks").select("*"),
   ]);
 
-  if (!colRes.error)  colRes.data.forEach(r  => { collection[r.id] = { count: r.count, memo: r.memo }; });
-  if (!listRes.error) listRes.data.forEach(r  => { lists[r.name]   = r.card_ids || []; });
-  if (!deckRes.error) deckRes.data.forEach(r  => { decks[r.name]   = { memo: r.memo || "", cards: r.cards || {} }; });
+  if (!colRes.error)  colRes.data.forEach(r => { collection[r.id] = { count: r.count, memo: r.memo }; });
+  if (!listRes.error) listRes.data.forEach(r => { lists[r.name]   = r.card_ids || []; });
+  if (!deckRes.error) deckRes.data.forEach(r => { decks[r.name]   = { memo: r.memo || "", cards: r.cards || {} }; });
 
   fetch("data/cards.json")
     .then(r => { if (!r.ok) throw new Error("cards.json が見つかりません"); return r.json(); })
@@ -74,6 +79,7 @@ function switchTab(tab) {
   if (btn) btn.classList.add("active");
   currentList = null;
   currentDeck = null;
+  currentPage = 1;
   renderSidebar();
   applyFilter();
 }
@@ -87,14 +93,7 @@ function renderSidebar() {
   el.innerHTML = activeTab === "collection"
     ? renderCollectionSidebarHTML()
     : renderDeckSidebarHTML();
-  bindFilterEvents();
-
-  // スマホ用フィルターパネルにも同じフィルターを描画
-  const mfb = document.getElementById("mobileFilterBody");
-  if (mfb) {
-    mfb.innerHTML = renderFilterHTML();
-    bindFilterEvents();
-  }
+  // リアルタイム検索はしない（ボタン押し時のみ）
 }
 
 function renderCollectionSidebarHTML() {
@@ -245,28 +244,16 @@ function renderFilterHTML() {
   `;
 }
 
-// AND/OR トグル
 function toggleMode(id) {
   modeState[id] = modeState[id] === "OR" ? "AND" : "OR";
   document.querySelectorAll(`#${id}`).forEach(el => {
     el.textContent = modeState[id];
     el.classList.toggle("and-mode", modeState[id] === "AND");
   });
-  applyFilter();
-}
-
-function bindFilterEvents() {
-  document.querySelectorAll(".civ-include,.civ-exclude").forEach(el =>
-    el.addEventListener("change", () => applyFilter()));
-  document.querySelectorAll("#colorCount,#costMin,#costMax,#ownedOnly,#sortSelect").forEach(el => {
-    if (el) el.addEventListener("change", () => applyFilter());
-  });
-  document.querySelectorAll(".name-input,.race-input,.memo-input").forEach(el =>
-    el.addEventListener("input", () => applyFilter()));
 }
 
 // ================================================================
-// フィルター適用
+// フィルター適用（検索ボタン押し時のみ）
 // ================================================================
 function applyFilter() {
   const civInclude = Array.from(document.querySelectorAll(".civ-include:checked")).map(e => e.value);
@@ -281,7 +268,6 @@ function applyFilter() {
   const raceWords = Array.from(document.querySelectorAll(".race-input")).map(e => e.value.trim()).filter(Boolean);
   const memoWords = Array.from(document.querySelectorAll(".memo-input")).map(e => e.value.trim()).filter(Boolean);
 
-  // ベースカード
   let base = cards;
   if (activeTab === "collection" && currentList !== null) {
     base = cards.filter(c => lists[currentList].includes(c.id));
@@ -289,13 +275,12 @@ function applyFilter() {
     base = cards.filter(c => (decks[currentDeck]?.cards[c.id] || 0) > 0);
   }
 
-  let filtered = base.filter(card => {
+  filteredCards = base.filter(card => {
     if (civInclude.length && !card.civilizations.some(c => civInclude.includes(c))) return false;
     if (civExclude.length &&  card.civilizations.some(c => civExclude.includes(c))) return false;
     if (colorCount === "mono"  && card.civilizations.length !== 1) return false;
     if (colorCount === "multi" && card.civilizations.length <= 1)  return false;
     if (card.cost < costMin || card.cost > costMax) return false;
-
     if (nameWords.length) {
       const ok = modeState.nameMode === "AND"
         ? nameWords.every(w => card.name.includes(w))
@@ -320,16 +305,71 @@ function applyFilter() {
     return true;
   });
 
-  filtered.sort((a, b) => {
+  filteredCards.sort((a, b) => {
     if (sort === "cost_asc")  return a.cost - b.cost;
     if (sort === "cost_desc") return b.cost - a.cost;
     if (sort === "count") return ((collection[b.id]||{}).count||0) - ((collection[a.id]||{}).count||0);
     return a.name.localeCompare(b.name, "ja");
   });
 
-  render(filtered);
-  updateStats(filtered);
-  document.getElementById("resultCount").textContent = `${filtered.length} 件`;
+  currentPage = 1;
+  renderPage();
+  updateStats(filteredCards);
+}
+
+// ================================================================
+// ページ描画
+// ================================================================
+function renderPage() {
+  const total     = filteredCards.length;
+  const totalPages = Math.ceil(total / PAGE_SIZE);
+  const start     = (currentPage - 1) * PAGE_SIZE;
+  const pageCards = filteredCards.slice(start, start + PAGE_SIZE);
+
+  document.getElementById("resultCount").textContent = `${total} 件`;
+  render(pageCards);
+  renderPager(totalPages);
+}
+
+function renderPager(totalPages) {
+  let el = document.getElementById("pager");
+  if (!el) {
+    el = document.createElement("div");
+    el.id = "pager";
+    el.className = "pager";
+    document.querySelector("main.list").appendChild(el);
+  }
+
+  if (totalPages <= 1) { el.innerHTML = ""; return; }
+
+  let html = "";
+  if (currentPage > 1) {
+    html += `<button class="page-btn" onclick="goPage(${currentPage-1})">‹ 前へ</button>`;
+  }
+
+  // ページ番号ボタン（前後2ページ分）
+  const start = Math.max(1, currentPage - 2);
+  const end   = Math.min(totalPages, currentPage + 2);
+  if (start > 1) html += `<button class="page-btn" onclick="goPage(1)">1</button>`;
+  if (start > 2) html += `<span class="page-ellipsis">…</span>`;
+  for (let i = start; i <= end; i++) {
+    html += `<button class="page-btn ${i===currentPage?'active':''}" onclick="goPage(${i})">${i}</button>`;
+  }
+  if (end < totalPages - 1) html += `<span class="page-ellipsis">…</span>`;
+  if (end < totalPages) html += `<button class="page-btn" onclick="goPage(${totalPages})">${totalPages}</button>`;
+
+  if (currentPage < totalPages) {
+    html += `<button class="page-btn" onclick="goPage(${currentPage+1})">次へ ›</button>`;
+  }
+
+  el.innerHTML = html;
+}
+
+function goPage(page) {
+  currentPage = page;
+  renderPage();
+  // 一覧の先頭にスクロール
+  document.querySelector("main.list").scrollTo(0, 0);
 }
 
 // ================================================================
@@ -407,7 +447,7 @@ function showDetail(card) {
                   <div class="count-ctrl" style="gap:4px;">
                     <button class="count-btn minus" style="width:24px;height:24px;font-size:.9rem;"
                       onclick="changeDeckCount('${escAttr(n)}','${escAttr(card.id)}',-1)">−</button>
-                    <span class="count-val" style="min-width:20px;font-size:.9rem;" id="deck-cnt-${escAttr(n)}-${escAttr(card.id)}">${cnt}</span>
+                    <span class="count-val" style="min-width:20px;font-size:.9rem;" id="dcnt-${escAttr(n)}-${escAttr(card.id)}">${cnt}</span>
                     <button class="count-btn plus" style="width:24px;height:24px;font-size:.9rem;"
                       onclick="changeDeckCount('${escAttr(n)}','${escAttr(card.id)}',1)">＋</button>
                   </div>
@@ -469,8 +509,7 @@ function showMobileDetail(card) {
   }).join("") || `<p style="color:#6b7399;font-size:.8rem">デッキがありません</p>`;
 
   const imgHtml = card.image
-    ? `<img src="${escAttr(card.image)}" alt="${escAttr(card.name)}"
-            style="width:140px;border-radius:8px;display:block;margin:0 auto 12px;"
+    ? `<img src="${escAttr(card.image)}" style="width:140px;border-radius:8px;display:block;margin:0 auto 12px;"
             onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'no-image',textContent:'画像なし'}))">`
     : `<div class="no-image" style="height:80px;margin-bottom:12px;">画像なし</div>`;
 
@@ -507,21 +546,23 @@ function closeMobileModal() {
 async function changeCount(id, delta) {
   if (!collection[id]) collection[id] = { count: 0, memo: "" };
   collection[id].count = Math.max(0, (collection[id].count || 0) + delta);
-  // テーブルの表示を更新
+  const cnt = collection[id].count;
+
+  // テーブル内の表示を更新
   document.querySelectorAll("#cardTable tr").forEach(tr => {
     const btn = tr.querySelector(".count-btn.minus");
     if (!btn) return;
     const m = (btn.getAttribute("onclick")||"").match(/'([^']+)'/);
     if (m && m[1] === id) {
       const val = tr.querySelector(".count-val");
-      if (val) val.textContent = collection[id].count;
+      if (val) val.textContent = cnt;
     }
   });
-  // 詳細パネル・モーダルの表示を更新
   const dc = document.getElementById("detail-count");
   const mc = document.getElementById("modal-count");
-  if (dc && currentCard?.id === id) dc.textContent = collection[id].count;
-  if (mc && currentCard?.id === id) mc.textContent = collection[id].count;
+  if (dc && currentCard?.id === id) dc.textContent = cnt;
+  if (mc && currentCard?.id === id) mc.textContent = cnt;
+
   updateHeader();
   await saveCollection(id);
 }
@@ -542,14 +583,15 @@ async function changeDeckCount(deckName, cardId, delta) {
   if (next === 0) delete decks[deckName].cards[cardId];
   else decks[deckName].cards[cardId] = next;
   await saveDeck(deckName);
+
   // デッキ合計を更新
   const statsEl = document.querySelector(".deck-stats strong");
   if (statsEl) statsEl.textContent = getDeckTotal(deckName);
   // 詳細パネルのデッキ枚数を更新
-  const cntEl = document.getElementById(`deck-cnt-${deckName}-${cardId}`);
+  const cntEl = document.getElementById(`dcnt-${deckName}-${cardId}`);
   if (cntEl) cntEl.textContent = next;
-  // テーブルのデッキ枚数を更新（デッキタブ表示中のみ）
-  if (activeTab === "deck" && currentDeck === deckName) applyFilter();
+  // デッキタブ表示中はテーブルを再描画
+  if (activeTab === "deck" && currentDeck === deckName) renderPage();
 }
 
 async function updateDeckMemo(name, val) {
@@ -561,7 +603,7 @@ async function updateDeckMemo(name, val) {
 // ================================================================
 // リスト操作
 // ================================================================
-function switchList(name) { currentList = name; renderSidebar(); applyFilter(); }
+function switchList(name) { currentList = name; currentPage = 1; renderSidebar(); applyFilter(); }
 
 async function addList() {
   const input = document.getElementById("newListName");
@@ -593,7 +635,7 @@ async function toggleCardInList(cardId, listName) {
 // ================================================================
 // デッキ操作
 // ================================================================
-function switchDeck(name) { currentDeck = name; renderSidebar(); applyFilter(); }
+function switchDeck(name) { currentDeck = name; currentPage = 1; renderSidebar(); applyFilter(); }
 
 async function addDeck() {
   const input = document.getElementById("newDeckName");
@@ -622,9 +664,9 @@ function updateHeader() {
   document.getElementById("totalCount").textContent = `所持: ${kinds} 種 / ${total} 枚`;
 }
 
-function updateStats(filtered) {
+function updateStats(list) {
   const civMap = {}; let totalOwned = 0;
-  filtered.forEach(card => {
+  list.forEach(card => {
     const cnt = (collection[card.id]||{}).count||0;
     totalOwned += cnt;
     card.civilizations.forEach(c => { civMap[c] = (civMap[c]||0) + 1; });
@@ -633,7 +675,7 @@ function updateStats(filtered) {
     .map(([c,n]) => `<span class="civ-badge civ-${c}">${c}</span> ${n}枚`).join("<br>");
   const el = document.getElementById("statsBox");
   if (el) el.innerHTML =
-    `<strong>表示中: ${filtered.length} 枚</strong><br>所持合計: ${totalOwned} 枚<br><br>${civLines||"—"}`;
+    `<strong>表示中: ${list.length} 枚</strong><br>所持合計: ${totalOwned} 枚<br><br>${civLines||"—"}`;
 }
 
 // ================================================================
@@ -641,14 +683,12 @@ function updateStats(filtered) {
 // ================================================================
 function resetFilter() {
   document.querySelectorAll(".civ-include,.civ-exclude").forEach(el => el.checked = false);
-  ["colorCount","costMin","costMax","ownedOnly","sortSelect"].forEach(id => {
+  const ids = { colorCount:"all", costMin:0, costMax:99, ownedOnly:false, sortSelect:"name" };
+  Object.entries(ids).forEach(([id, val]) => {
     const el = document.getElementById(id);
     if (!el) return;
-    if (id === "colorCount") el.value = "all";
-    else if (id === "costMin") el.value = 0;
-    else if (id === "costMax") el.value = 99;
-    else if (id === "ownedOnly") el.checked = false;
-    else if (id === "sortSelect") el.value = "name";
+    if (typeof val === "boolean") el.checked = val;
+    else el.value = val;
   });
   document.querySelectorAll(".name-input,.race-input,.memo-input").forEach(el => el.value = "");
   ["nameMode","raceMode","memoMode"].forEach(id => {
@@ -665,10 +705,9 @@ function showMobileTab(tab) {
   if (event?.currentTarget) event.currentTarget.classList.add("active");
   document.getElementById("mobileFilterPanel").classList.remove("open");
   if (tab === "filter") {
-    document.getElementById("mobileFilterPanel").classList.add("open");
-    // フィルターパネルの中身を描画
     const mfb = document.getElementById("mobileFilterBody");
-    if (mfb) { mfb.innerHTML = renderFilterHTML(); bindFilterEvents(); }
+    if (mfb) { mfb.innerHTML = renderFilterHTML(); }
+    document.getElementById("mobileFilterPanel").classList.add("open");
   }
 }
 

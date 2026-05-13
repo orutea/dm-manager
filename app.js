@@ -3,16 +3,16 @@
    ==================================================== */
 
 // ★ここを自分のSupabaseの情報に書き換えてください
-const SUPABASE_URL = "https://rohpwisxpzpbnsqvyvzb.supabase.co";
-const SUPABASE_KEY = "sb_publishable_QmfPgzSkLR7oFIRu4vYcQQ_os4Gadqk";
+const SUPABASE_URL = "https://ここにProject_URLを貼り付ける";
+const SUPABASE_KEY = "ここにanon_public_keyを貼り付ける";
 
 const { createClient } = supabase;
 const db = createClient(SUPABASE_URL, SUPABASE_KEY);
 
-let cards      = [];
-let collection = {};
-let lists      = {};
-let decks      = {};
+let cards       = [];
+let collection  = {};
+let lists       = {};
+let decks       = {};
 
 let currentCard = null;
 let currentList = null;
@@ -21,7 +21,6 @@ let activeTab   = "collection";
 
 const modeState = { nameMode: "OR", raceMode: "OR", memoMode: "OR" };
 
-// ページング
 const PAGE_SIZE    = 50;
 let   currentPage  = 1;
 let   filteredCards = [];
@@ -70,7 +69,7 @@ async function saveDeck(name) {
 }
 
 // ================================================================
-// タブ切り替え
+// タブ切り替え（PC）
 // ================================================================
 function switchTab(tab) {
   activeTab = tab;
@@ -85,7 +84,7 @@ function switchTab(tab) {
 }
 
 // ================================================================
-// サイドバー描画
+// PC サイドバー描画
 // ================================================================
 function renderSidebar() {
   const el = document.getElementById("sidebarContent");
@@ -93,7 +92,6 @@ function renderSidebar() {
   el.innerHTML = activeTab === "collection"
     ? renderCollectionSidebarHTML()
     : renderDeckSidebarHTML();
-  // リアルタイム検索はしない（ボタン押し時のみ）
 }
 
 function renderCollectionSidebarHTML() {
@@ -134,7 +132,7 @@ function renderDeckSidebarHTML() {
     ${currentDeck ? `
       <div class="deck-info">
         <div class="deck-stats">合計 <strong>${getDeckTotal(currentDeck)}</strong> 枚</div>
-        <h4 style="margin:10px 0 4px;font-size:.78rem;color:#6b7399;text-transform:uppercase;">デッキメモ</h4>
+        <h4 style="margin:10px 0 4px;font-size:.75rem;color:#6b7399;text-transform:uppercase;">デッキメモ</h4>
         <textarea class="deck-memo" placeholder="デッキのメモ..."
           onchange="updateDeckMemo('${escAttr(currentDeck)}',this.value)">${escHtml(decks[currentDeck]?.memo||"")}</textarea>
       </div>` : ""}
@@ -150,6 +148,156 @@ function renderDeckSidebarHTML() {
 function getDeckTotal(name) {
   if (!decks[name]) return 0;
   return Object.values(decks[name].cards).reduce((s, v) => s + v, 0);
+}
+
+// ================================================================
+// スマホ パネル管理
+// ================================================================
+function showMobileTab(tab, btnEl) {
+  // ナビボタンのアクティブ状態
+  document.querySelectorAll(".mobile-nav-btn").forEach(b => b.classList.remove("active"));
+  if (btnEl) btnEl.classList.add("active");
+
+  // 全パネルを閉じる
+  ["mobileFilterPanel","mobileListPanel","mobileDeckPanel"].forEach(id => {
+    document.getElementById(id)?.classList.remove("open");
+  });
+
+  if (tab === "filter") {
+    const body = document.getElementById("mobileFilterBody");
+    if (body) body.innerHTML = renderFilterHTML();
+    document.getElementById("mobileFilterPanel").classList.add("open");
+
+  } else if (tab === "mylist") {
+    renderMobileListPanel();
+    document.getElementById("mobileListPanel").classList.add("open");
+
+  } else if (tab === "deck") {
+    // スマホのデッキタブはデッキパネルを開く
+    renderMobileDeckPanel();
+    document.getElementById("mobileDeckPanel").classList.add("open");
+  }
+  // tab === "list" の場合はパネルを閉じるだけ（一覧表示）
+}
+
+function closeMobilePanel(id) {
+  document.getElementById(id)?.classList.remove("open");
+}
+
+// ================================================================
+// スマホ リストパネル描画
+// ================================================================
+function renderMobileListPanel() {
+  const body = document.getElementById("mobileListBody");
+  if (!body) return;
+
+  const listItems = Object.keys(lists).map(n => `
+    <div class="mobile-list-item ${currentList===n?'active':''}" onclick="selectMobileList('${escAttr(n)}')">
+      <span>📁 ${escHtml(n)}</span>
+      <div style="display:flex;gap:6px;align-items:center;">
+        <span style="font-size:.75rem;color:#6b7399;">${lists[n].length}枚</span>
+        <button class="mobile-delete-btn" onclick="event.stopPropagation();removeList('${escAttr(n)}')">✕</button>
+      </div>
+    </div>`).join("");
+
+  body.innerHTML = `
+    <div class="mobile-list-item ${currentList===null?'active':''}" onclick="selectMobileList(null)">
+      📋 全カード表示
+    </div>
+    ${listItems}
+    <div style="margin-top:12px;">
+      <p style="font-size:.75rem;color:#6b7399;margin-bottom:6px;text-transform:uppercase;letter-spacing:.05em;">新しいリストを作成</p>
+      <div class="list-add">
+        <input type="text" id="mobileNewListName" placeholder="リスト名を入力">
+        <button onclick="addMobileList()">＋</button>
+      </div>
+    </div>
+    ${currentList ? `
+      <div style="margin-top:12px;padding:10px;background:#22263a;border-radius:8px;border:1px solid #2e3350;">
+        <p style="font-size:.78rem;color:#4f8ef7;font-weight:bold;margin-bottom:4px;">📁 ${escHtml(currentList)}</p>
+        <p style="font-size:.75rem;color:#6b7399;">${lists[currentList]?.length||0}枚 登録中</p>
+      </div>` : ""}
+  `;
+}
+
+function selectMobileList(name) {
+  currentList = name;
+  currentPage = 1;
+  activeTab   = "collection";
+  renderMobileListPanel();
+  applyFilter();
+  // PC側も同期
+  renderSidebar();
+}
+
+async function addMobileList() {
+  const input = document.getElementById("mobileNewListName");
+  const name  = input?.value.trim();
+  if (!name || lists[name] !== undefined) return;
+  lists[name] = [];
+  await saveList(name);
+  input.value = "";
+  renderMobileListPanel();
+  renderSidebar();
+}
+
+// ================================================================
+// スマホ デッキパネル描画
+// ================================================================
+function renderMobileDeckPanel() {
+  const body = document.getElementById("mobileDeckBody");
+  if (!body) return;
+
+  const deckItems = Object.keys(decks).map(n => `
+    <div class="mobile-list-item ${currentDeck===n?'active':''}" onclick="selectMobileDeck('${escAttr(n)}')">
+      <span>🃏 ${escHtml(n)}</span>
+      <div style="display:flex;gap:6px;align-items:center;">
+        <span style="font-size:.75rem;color:#6b7399;">${getDeckTotal(n)}枚</span>
+        <button class="mobile-delete-btn" onclick="event.stopPropagation();removeDeck('${escAttr(n)}')">✕</button>
+      </div>
+    </div>`).join("");
+
+  body.innerHTML = `
+    <div class="mobile-list-item ${currentDeck===null?'active':''}" onclick="selectMobileDeck(null)">
+      📋 全カード表示
+    </div>
+    ${deckItems}
+    <div style="margin-top:12px;">
+      <p style="font-size:.75rem;color:#6b7399;margin-bottom:6px;text-transform:uppercase;letter-spacing:.05em;">新しいデッキを作成</p>
+      <div class="list-add">
+        <input type="text" id="mobileNewDeckName" placeholder="デッキ名を入力">
+        <button onclick="addMobileDeck()">＋</button>
+      </div>
+    </div>
+    ${currentDeck ? `
+      <div style="margin-top:12px;padding:10px;background:#22263a;border-radius:8px;border:1px solid #2e3350;">
+        <p style="font-size:.78rem;color:#4f8ef7;font-weight:bold;margin-bottom:6px;">🃏 ${escHtml(currentDeck)}</p>
+        <p style="font-size:.75rem;color:#6b7399;margin-bottom:6px;">合計 ${getDeckTotal(currentDeck)} 枚</p>
+        <textarea style="width:100%;height:60px;background:#1a1d27;border:1px solid #2e3350;border-radius:8px;color:#e4e8f7;padding:7px;font-size:.8rem;"
+          placeholder="デッキのメモ..."
+          onchange="updateDeckMemo('${escAttr(currentDeck)}',this.value)">${escHtml(decks[currentDeck]?.memo||"")}</textarea>
+      </div>` : ""}
+  `;
+}
+
+function selectMobileDeck(name) {
+  currentDeck = name;
+  currentPage = 1;
+  activeTab   = "deck";
+  renderMobileDeckPanel();
+  applyFilter();
+  renderSidebar();
+}
+
+async function addMobileDeck() {
+  const input = document.getElementById("mobileNewDeckName");
+  const name  = input?.value.trim();
+  if (!name || decks[name] !== undefined) return;
+  decks[name] = { memo: "", cards: {} };
+  await saveDeck(name);
+  input.value = "";
+  renderMobileDeckPanel();
+  renderSidebar();
 }
 
 // ================================================================
@@ -253,7 +401,7 @@ function toggleMode(id) {
 }
 
 // ================================================================
-// フィルター適用（検索ボタン押し時のみ）
+// フィルター適用
 // ================================================================
 function applyFilter() {
   const civInclude = Array.from(document.querySelectorAll(".civ-include:checked")).map(e => e.value);
@@ -321,10 +469,10 @@ function applyFilter() {
 // ページ描画
 // ================================================================
 function renderPage() {
-  const total     = filteredCards.length;
+  const total      = filteredCards.length;
   const totalPages = Math.ceil(total / PAGE_SIZE);
-  const start     = (currentPage - 1) * PAGE_SIZE;
-  const pageCards = filteredCards.slice(start, start + PAGE_SIZE);
+  const start      = (currentPage - 1) * PAGE_SIZE;
+  const pageCards  = filteredCards.slice(start, start + PAGE_SIZE);
 
   document.getElementById("resultCount").textContent = `${total} 件`;
   render(pageCards);
@@ -343,24 +491,21 @@ function renderPager(totalPages) {
   if (totalPages <= 1) { el.innerHTML = ""; return; }
 
   let html = "";
-  if (currentPage > 1) {
-    html += `<button class="page-btn" onclick="goPage(${currentPage-1})">‹ 前へ</button>`;
-  }
+  if (currentPage > 1)
+    html += `<button class="page-btn" onclick="goPage(${currentPage-1})">‹</button>`;
 
-  // ページ番号ボタン（前後2ページ分）
-  const start = Math.max(1, currentPage - 2);
-  const end   = Math.min(totalPages, currentPage + 2);
-  if (start > 1) html += `<button class="page-btn" onclick="goPage(1)">1</button>`;
-  if (start > 2) html += `<span class="page-ellipsis">…</span>`;
-  for (let i = start; i <= end; i++) {
+  const s = Math.max(1, currentPage - 2);
+  const e = Math.min(totalPages, currentPage + 2);
+  if (s > 1) html += `<button class="page-btn" onclick="goPage(1)">1</button>`;
+  if (s > 2) html += `<span class="page-ellipsis">…</span>`;
+  for (let i = s; i <= e; i++)
     html += `<button class="page-btn ${i===currentPage?'active':''}" onclick="goPage(${i})">${i}</button>`;
-  }
-  if (end < totalPages - 1) html += `<span class="page-ellipsis">…</span>`;
-  if (end < totalPages) html += `<button class="page-btn" onclick="goPage(${totalPages})">${totalPages}</button>`;
+  if (e < totalPages - 1) html += `<span class="page-ellipsis">…</span>`;
+  if (e < totalPages)
+    html += `<button class="page-btn" onclick="goPage(${totalPages})">${totalPages}</button>`;
 
-  if (currentPage < totalPages) {
-    html += `<button class="page-btn" onclick="goPage(${currentPage+1})">次へ ›</button>`;
-  }
+  if (currentPage < totalPages)
+    html += `<button class="page-btn" onclick="goPage(${currentPage+1})">›</button>`;
 
   el.innerHTML = html;
 }
@@ -368,7 +513,6 @@ function renderPager(totalPages) {
 function goPage(page) {
   currentPage = page;
   renderPage();
-  // 一覧の先頭にスクロール
   document.querySelector("main.list").scrollTo(0, 0);
 }
 
@@ -423,14 +567,14 @@ function render(list) {
 }
 
 // ================================================================
-// PC版 詳細パネル
+// PC 詳細パネル
 // ================================================================
 function showDetail(card) {
   currentCard = card;
   const colData = collection[card.id] || { count: 0, memo: "" };
 
   const listButtons = Object.keys(lists).length === 0
-    ? `<p style="color:#6b7399;font-size:.8rem">リストがありません</p>`
+    ? `<p style="color:#6b7399;font-size:.78rem">リストがありません</p>`
     : Object.keys(lists).map(n => {
         const inList = lists[n].includes(card.id);
         return `<button class="btn-list-toggle ${inList?'in-list':''}"
@@ -439,7 +583,7 @@ function showDetail(card) {
       }).join("");
 
   const deckButtons = Object.keys(decks).length === 0
-    ? `<p style="color:#6b7399;font-size:.8rem">デッキがありません</p>`
+    ? `<p style="color:#6b7399;font-size:.78rem">デッキがありません</p>`
     : Object.keys(decks).map(n => {
         const cnt = decks[n]?.cards[card.id] || 0;
         return `<div class="deck-card-row">
@@ -447,7 +591,7 @@ function showDetail(card) {
                   <div class="count-ctrl" style="gap:4px;">
                     <button class="count-btn minus" style="width:24px;height:24px;font-size:.9rem;"
                       onclick="changeDeckCount('${escAttr(n)}','${escAttr(card.id)}',-1)">−</button>
-                    <span class="count-val" style="min-width:20px;font-size:.9rem;" id="dcnt-${escAttr(n)}-${escAttr(card.id)}">${cnt}</span>
+                    <span class="count-val" style="min-width:18px;font-size:.88rem;" id="dcnt-${escAttr(n)}-${escAttr(card.id)}">${cnt}</span>
                     <button class="count-btn plus" style="width:24px;height:24px;font-size:.9rem;"
                       onclick="changeDeckCount('${escAttr(n)}','${escAttr(card.id)}',1)">＋</button>
                   </div>
@@ -488,7 +632,7 @@ function showDetail(card) {
 }
 
 // ================================================================
-// スマホ版 モーダル
+// スマホ カード詳細モーダル
 // ================================================================
 function showMobileDetail(card) {
   currentCard = card;
@@ -499,14 +643,21 @@ function showMobileDetail(card) {
     return `<div class="deck-card-row">
               <span>🃏 ${escHtml(n)}</span>
               <div class="count-ctrl" style="gap:4px;">
-                <button class="count-btn minus" style="width:26px;height:26px;font-size:.95rem;"
+                <button class="count-btn minus" style="width:28px;height:28px;"
                   onclick="changeDeckCount('${escAttr(n)}','${escAttr(card.id)}',-1)">−</button>
                 <span class="count-val" style="min-width:20px;font-size:.9rem;">${cnt}</span>
-                <button class="count-btn plus" style="width:26px;height:26px;font-size:.95rem;"
+                <button class="count-btn plus" style="width:28px;height:28px;"
                   onclick="changeDeckCount('${escAttr(n)}','${escAttr(card.id)}',1)">＋</button>
               </div>
             </div>`;
-  }).join("") || `<p style="color:#6b7399;font-size:.8rem">デッキがありません</p>`;
+  }).join("") || `<p style="color:#6b7399;font-size:.78rem">デッキがありません</p>`;
+
+  const listButtons = Object.keys(lists).map(n => {
+    const inList = lists[n].includes(card.id);
+    return `<button class="btn-list-toggle ${inList?'in-list':''}"
+              onclick="toggleCardInList('${escAttr(card.id)}','${escAttr(n)}');renderMobileListPanel()">
+              ${inList?'✅':'＋'} ${escHtml(n)}</button>`;
+  }).join("") || `<p style="color:#6b7399;font-size:.78rem">リストがありません</p>`;
 
   const imgHtml = card.image
     ? `<img src="${escAttr(card.image)}" style="width:140px;border-radius:8px;display:block;margin:0 auto 12px;"
@@ -527,10 +678,12 @@ function showMobileDetail(card) {
         <button class="count-btn plus"  onclick="changeCount('${escAttr(card.id)}',1)">＋</button>
       </div>
     </div>
-    <p style="font-size:.75rem;color:#6b7399;margin:10px 0 4px;text-transform:uppercase;">🃏 デッキ枚数</p>
+    <p style="font-size:.72rem;color:#6b7399;margin:10px 0 5px;text-transform:uppercase;letter-spacing:.05em;">📁 リスト</p>
+    <div class="list-buttons">${listButtons}</div>
+    <p style="font-size:.72rem;color:#6b7399;margin:10px 0 5px;text-transform:uppercase;letter-spacing:.05em;">🃏 デッキ枚数</p>
     <div>${deckButtons}</div>
-    <p style="font-size:.75rem;color:#6b7399;margin:10px 0 4px;text-transform:uppercase;">メモ</p>
-    <textarea style="width:100%;height:60px;background:#22263a;border:1px solid #2e3350;border-radius:8px;color:#e4e8f7;padding:8px;font-size:.83rem;"
+    <p style="font-size:.72rem;color:#6b7399;margin:10px 0 5px;text-transform:uppercase;letter-spacing:.05em;">メモ</p>
+    <textarea style="width:100%;height:60px;background:#22263a;border:1px solid #2e3350;border-radius:8px;color:#e4e8f7;padding:8px;font-size:.82rem;"
       onchange="updateMemo('${escAttr(card.id)}',this.value)">${escHtml(colData.memo)}</textarea>
   `;
   document.getElementById("mobileModal").classList.add("open");
@@ -548,7 +701,6 @@ async function changeCount(id, delta) {
   collection[id].count = Math.max(0, (collection[id].count || 0) + delta);
   const cnt = collection[id].count;
 
-  // テーブル内の表示を更新
   document.querySelectorAll("#cardTable tr").forEach(tr => {
     const btn = tr.querySelector(".count-btn.minus");
     if (!btn) return;
@@ -584,13 +736,10 @@ async function changeDeckCount(deckName, cardId, delta) {
   else decks[deckName].cards[cardId] = next;
   await saveDeck(deckName);
 
-  // デッキ合計を更新
   const statsEl = document.querySelector(".deck-stats strong");
-  if (statsEl) statsEl.textContent = getDeckTotal(deckName);
-  // 詳細パネルのデッキ枚数を更新
+  if (statsEl && currentDeck === deckName) statsEl.textContent = getDeckTotal(deckName);
   const cntEl = document.getElementById(`dcnt-${deckName}-${cardId}`);
   if (cntEl) cntEl.textContent = next;
-  // デッキタブ表示中はテーブルを再描画
   if (activeTab === "deck" && currentDeck === deckName) renderPage();
 }
 
@@ -607,7 +756,7 @@ function switchList(name) { currentList = name; currentPage = 1; renderSidebar()
 
 async function addList() {
   const input = document.getElementById("newListName");
-  const name  = input.value.trim();
+  const name  = input?.value.trim();
   if (!name || lists[name] !== undefined) return;
   lists[name] = [];
   await saveList(name);
@@ -620,7 +769,9 @@ async function removeList(name) {
   delete lists[name];
   await db.from("lists").delete().eq("name", name);
   if (currentList === name) currentList = null;
-  renderSidebar(); applyFilter();
+  renderSidebar();
+  renderMobileListPanel();
+  applyFilter();
 }
 
 async function toggleCardInList(cardId, listName) {
@@ -639,7 +790,7 @@ function switchDeck(name) { currentDeck = name; currentPage = 1; renderSidebar()
 
 async function addDeck() {
   const input = document.getElementById("newDeckName");
-  const name  = input.value.trim();
+  const name  = input?.value.trim();
   if (!name || decks[name] !== undefined) return;
   decks[name] = { memo: "", cards: {} };
   await saveDeck(name);
@@ -652,7 +803,9 @@ async function removeDeck(name) {
   delete decks[name];
   await db.from("decks").delete().eq("name", name);
   if (currentDeck === name) currentDeck = null;
-  renderSidebar(); applyFilter();
+  renderSidebar();
+  renderMobileDeckPanel();
+  applyFilter();
 }
 
 // ================================================================
@@ -679,17 +832,17 @@ function updateStats(list) {
 }
 
 // ================================================================
-// リセット・スマホ
+// リセット
 // ================================================================
 function resetFilter() {
   document.querySelectorAll(".civ-include,.civ-exclude").forEach(el => el.checked = false);
-  const ids = { colorCount:"all", costMin:0, costMax:99, ownedOnly:false, sortSelect:"name" };
-  Object.entries(ids).forEach(([id, val]) => {
+  const defaults = { colorCount:"all", costMin:0, costMax:99, sortSelect:"name" };
+  Object.entries(defaults).forEach(([id, val]) => {
     const el = document.getElementById(id);
-    if (!el) return;
-    if (typeof val === "boolean") el.checked = val;
-    else el.value = val;
+    if (el) el.value = val;
   });
+  const oo = document.getElementById("ownedOnly");
+  if (oo) oo.checked = false;
   document.querySelectorAll(".name-input,.race-input,.memo-input").forEach(el => el.value = "");
   ["nameMode","raceMode","memoMode"].forEach(id => {
     modeState[id] = "OR";
@@ -698,21 +851,6 @@ function resetFilter() {
     });
   });
   applyFilter();
-}
-
-function showMobileTab(tab) {
-  document.querySelectorAll(".mobile-nav-btn").forEach(b => b.classList.remove("active"));
-  if (event?.currentTarget) event.currentTarget.classList.add("active");
-  document.getElementById("mobileFilterPanel").classList.remove("open");
-  if (tab === "filter") {
-    const mfb = document.getElementById("mobileFilterBody");
-    if (mfb) { mfb.innerHTML = renderFilterHTML(); }
-    document.getElementById("mobileFilterPanel").classList.add("open");
-  }
-}
-
-function closeMobileFilter() {
-  document.getElementById("mobileFilterPanel").classList.remove("open");
 }
 
 // ================================================================

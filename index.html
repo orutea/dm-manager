@@ -14,8 +14,7 @@
 </header>
 
 <div class="container">
-
-  <!-- 左サイドバー -->
+  <!-- 左サイドバー（PC用） -->
   <aside class="filters">
     <div class="tab-bar">
       <button class="tab-btn active" data-tab="collection" onclick="switchTab('collection')">📦 所持</button>
@@ -40,41 +39,63 @@
       </thead>
       <tbody id="cardTable"></tbody>
     </table>
+    <!-- ページャーはJS側でここに追加 -->
   </main>
 
-  <!-- 右：詳細パネル -->
+  <!-- 右：詳細パネル（PC用） -->
   <aside class="detail" id="detail">
     <div class="detail-placeholder">← カードを選択してください</div>
   </aside>
-
 </div>
 
-<!-- スマホ ボトムナビ -->
+<!-- ==============================
+     スマホ用UI
+     ============================== -->
+
+<!-- ボトムナビ -->
 <nav class="mobile-nav">
-  <button class="mobile-nav-btn active" onclick="showMobileTab('list')">
+  <button class="mobile-nav-btn active" onclick="showMobileTab('list',this)">
     <span>☰</span><span>一覧</span>
   </button>
-  <button class="mobile-nav-btn" onclick="showMobileTab('filter')">
+  <button class="mobile-nav-btn" onclick="showMobileTab('filter',this)">
     <span>🔍</span><span>検索</span>
   </button>
-  <button class="mobile-nav-btn" onclick="switchTab('collection');showMobileTab('list')">
-    <span>📦</span><span>所持</span>
+  <button class="mobile-nav-btn" onclick="showMobileTab('mylist',this)">
+    <span>📁</span><span>リスト</span>
   </button>
-  <button class="mobile-nav-btn" onclick="switchTab('deck');showMobileTab('list')">
+  <button class="mobile-nav-btn" onclick="showMobileTab('deck',this)">
     <span>🃏</span><span>デッキ</span>
   </button>
 </nav>
 
-<!-- スマホ フィルターパネル -->
+<!-- フィルターパネル -->
 <div id="mobileFilterPanel" class="mobile-panel">
   <div class="mobile-panel-header">
     <span>🔍 絞り込み</span>
-    <button onclick="closeMobileFilter()">✕</button>
+    <button onclick="closeMobilePanel('mobileFilterPanel')">✕</button>
   </div>
   <div class="mobile-panel-body" id="mobileFilterBody"></div>
 </div>
 
-<!-- スマホ カード詳細モーダル -->
+<!-- リスト管理パネル -->
+<div id="mobileListPanel" class="mobile-panel">
+  <div class="mobile-panel-header">
+    <span>📁 リスト管理</span>
+    <button onclick="closeMobilePanel('mobileListPanel')">✕</button>
+  </div>
+  <div class="mobile-panel-body" id="mobileListBody"></div>
+</div>
+
+<!-- デッキ管理パネル -->
+<div id="mobileDeckPanel" class="mobile-panel">
+  <div class="mobile-panel-header">
+    <span>🃏 デッキ管理</span>
+    <button onclick="closeMobilePanel('mobileDeckPanel')">✕</button>
+  </div>
+  <div class="mobile-panel-body" id="mobileDeckBody"></div>
+</div>
+
+<!-- カード詳細モーダル -->
 <div id="mobileModal" class="mobile-modal">
   <div class="mobile-modal-content">
     <button class="mobile-modal-close" onclick="closeMobileModal()">✕ 閉じる</button>

@@ -3,8 +3,8 @@
    ==================================================== */
 
 // ★ここを自分のSupabaseの情報に書き換えてください
-const SUPABASE_URL = "https://ここにProject_URLを貼り付ける";
-const SUPABASE_KEY = "ここにanon_public_keyを貼り付ける";
+const SUPABASE_URL = "https://rohpwisxpzpbnsqvyvzb.supabase.co";
+const SUPABASE_KEY = "sb_publishable_QmfPgzSkLR7oFIRu4vYcQQ_os4Gadqk";
 
 const { createClient } = supabase;
 const db = createClient(SUPABASE_URL, SUPABASE_KEY);

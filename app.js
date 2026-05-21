@@ -3,8 +3,8 @@
    ==================================================== */
 
 // ★ここを自分のSupabaseの情報に書き換えてください
-const SUPABASE_URL = "https://rohpwisxpzpbnsqvyvzb.supabase.co";
-const SUPABASE_KEY = "sb_publishable_QmfPgzSkLR7oFIRu4vYcQQ_os4Gadqk";
+const SUPABASE_URL = "https://ここにProject_URLを貼り付ける";
+const SUPABASE_KEY = "ここにanon_public_keyを貼り付ける";
 
 const { createClient } = supabase;
 const db = createClient(SUPABASE_URL, SUPABASE_KEY);
@@ -381,6 +381,9 @@ function renderFilterHTML() {
       <label class="toggle-label"><input type="checkbox" id="ownedOnly"> 所持カードのみ</label>
     </div>
     <div class="filter-block">
+      <label class="toggle-label"><input type="checkbox" id="uniqueOnly"> 同名カードを除外（1種1枚）</label>
+    </div>
+    <div class="filter-block">
       <label class="filter-label">並び替え</label>
       <select id="sortSelect">
         <option value="name">名前順</option>
@@ -410,6 +413,7 @@ function applyFilter() {
   const costMin    = parseInt(document.getElementById("costMin")?.value) || 0;
   const costMax    = parseInt(document.getElementById("costMax")?.value) ?? 99;
   const ownedOnly  = document.getElementById("ownedOnly")?.checked || false;
+  const uniqueOnly = document.getElementById("uniqueOnly")?.checked || false;
   const sort       = document.getElementById("sortSelect")?.value || "name";
 
   const nameWords = Array.from(document.querySelectorAll(".name-input")).map(e => e.value.trim()).filter(Boolean);
@@ -459,6 +463,16 @@ function applyFilter() {
     if (sort === "count") return ((collection[b.id]||{}).count||0) - ((collection[a.id]||{}).count||0);
     return a.name.localeCompare(b.name, "ja");
   });
+
+  // 同名カード除外（同じ名前は最初の1枚だけ残す）
+  if (uniqueOnly) {
+    const seenNames = new Set();
+    filteredCards = filteredCards.filter(card => {
+      if (seenNames.has(card.name)) return false;
+      seenNames.add(card.name);
+      return true;
+    });
+  }
 
   currentPage = 1;
   renderPage();
@@ -843,6 +857,8 @@ function resetFilter() {
   });
   const oo = document.getElementById("ownedOnly");
   if (oo) oo.checked = false;
+  const uo = document.getElementById("uniqueOnly");
+  if (uo) uo.checked = false;
   document.querySelectorAll(".name-input,.race-input,.memo-input").forEach(el => el.value = "");
   ["nameMode","raceMode","memoMode"].forEach(id => {
     modeState[id] = "OR";
